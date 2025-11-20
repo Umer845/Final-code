@@ -1,0 +1,186 @@
+import streamlit as st
+import pandas as pd
+import joblib
+import os
+from sqlalchemy import create_engine
+from sqlalchemy.exc import SQLAlchemyError
+import risk_profile
+import premium
+
+
+# ==============================
+# 🔧 Database Configuration
+# ==============================
+DB_USER = "postgres"
+DB_PASSWORD = "United2025"
+DB_HOST = "localhost"
+DB_PORT = "5432"
+DB_NAME = "AutoMotor_Insurance"
+
+MODEL_DIR = "models"
+TRAINING_RESULTS_TABLE = "model_training_results"
+RISK_RESULTS_TABLE = "risk_profile_results"
+PREMIUM_RESULTS_TABLE = "premium_results"
+
+
+# ==============================
+# 🔗 MODEL FILE MAPPING
+# ==============================
+MODEL_FILE_MAP = {
+    "GradientBoost Model": "GradientBoost_Model.pkl",
+    "LightGBoost Model": "LightGBoost_Model.pkl",   # corrected key
+    "XGBoost Model": "XGBoost_Model.pkl",
+    "CatBoost Model": "CatBoost_Model.pkl",
+    "AdaBoost Model": "AdaBoost_Model.pkl"
+}
+
+
+# ==============================
+# 📡 Database Connection
+# ==============================
+def get_db_connection():
+    try:
+        return create_engine(
+            f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+        )
+    except SQLAlchemyError as e:
+        st.error(f"❌ Database Connection Failed: {e}")
+        return None
+
+
+# ==============================
+# 🎯 MAIN SCREEN
+# ==============================
+def show():
+
+    st.title("📊 Model Validation & Selection")
+
+    engine = get_db_connection()
+    if engine is None:
+        return
+
+    # --------------------------------------------------------
+    # 🚀 LOAD TRAINING RESULTS (ACCURACY TABLE)
+    # --------------------------------------------------------
+    try:
+        df_models = pd.read_sql(
+            f"SELECT model_name, accuracy FROM {TRAINING_RESULTS_TABLE};",
+            engine
+        )
+
+        if df_models.empty:
+            st.warning("⚠️ No trained model found in database.")
+            return
+
+        st.subheader("📄 Trained Models Summary")
+        st.dataframe(df_models, use_container_width=True)
+
+    except SQLAlchemyError as e:
+        st.error(f"❌ Could not fetch training results: {e}")
+        return
+    finally:
+        engine.dispose()
+
+    # --------------------------------------------------------
+    # 🎛 MODEL SELECTION (MANUAL ONLY)
+    # --------------------------------------------------------
+    model_list = df_models["model_name"].tolist()
+
+    selected_model = st.selectbox(
+        "Select a Model to Load",
+        options=model_list
+    )
+
+    # Show accuracy
+    model_accuracy_map = dict(zip(df_models["model_name"], df_models["accuracy"]))
+    accuracy_value = model_accuracy_map[selected_model]
+    st.metric("Validation Accuracy", f"{accuracy_value:.2f}%")
+
+    # Normalize LightGBM to LightGBoost (naming fix)
+    normalized_model = selected_model.replace("LightGBM", "LightGBoost")
+
+    if normalized_model not in MODEL_FILE_MAP:
+        st.error(f"❌ Model not found in mapping: {normalized_model}")
+        return
+
+    # --------------------------------------------------------
+    # 📦 LOAD MODEL FILE
+    # --------------------------------------------------------
+    model_path = os.path.join(MODEL_DIR, MODEL_FILE_MAP[normalized_model])
+
+    if not os.path.exists(model_path):
+        st.error(f"🚫 ML Model File Missing: {model_path}")
+        return
+
+    loaded_model = joblib.load(model_path)
+    st.session_state["loaded_model"] = loaded_model
+    st.session_state["selected_model_name"] = normalized_model
+
+    st.success(f"📌 Loaded Model: {os.path.basename(model_path)}")
+
+    # --------------------------------------------------------
+    # 📦 LOAD FEATURE COLUMNS FILE
+    # --------------------------------------------------------
+    features_path = model_path.replace(".pkl", "_features.pkl")
+
+    if os.path.exists(features_path):
+        feature_cols = joblib.load(features_path)
+        st.session_state["model_features"] = feature_cols
+        st.info("✅ Feature Set Loaded Successfully")
+    else:
+        st.session_state["model_features"] = None
+        st.warning("⚠ No feature file found — model may still work but predictions may vary.")
+
+    # --------------------------------------------------------
+    # 🔘 ACTION BUTTONS
+    # --------------------------------------------------------
+    col1, col2 = st.columns(2)
+
+    with col1:
+        if st.button("🔮 Predict Premium"):
+            st.session_state["show_prediction"] = True
+            st.session_state["show_results_screen"] = False
+
+    with col2:
+        if st.button("📑 View All Stored Results"):
+            st.session_state["show_results_screen"] = True
+            st.session_state["show_prediction"] = False
+
+    # --------------------------------------------------------
+    # 📑 SHOW COMBINED RESULTS (Risk + Premium)
+    # --------------------------------------------------------
+    if st.session_state.get("show_results_screen", False):
+
+        st.markdown("---")
+        st.subheader("📑 All Stored Prediction Results")
+
+        try:
+            engine = get_db_connection()
+
+            df_risk = pd.read_sql(f"SELECT * FROM {RISK_RESULTS_TABLE}", engine)
+            df_premium = pd.read_sql(f"SELECT * FROM {PREMIUM_RESULTS_TABLE}", engine)
+
+            if df_risk.empty and df_premium.empty:
+                st.info("ℹ️ No results found in the database.")
+            else:
+                # Align rows by index (if needed)
+                df_combined = pd.concat([df_risk, df_premium], axis=1)
+                st.dataframe(df_combined, use_container_width=True)
+
+        except SQLAlchemyError as e:
+            st.error(f"❌ Could not load results: {e}")
+        finally:
+            engine.dispose()
+
+    # --------------------------------------------------------
+    # 🚦 RUN RISK + PREMIUM MODULES
+    # --------------------------------------------------------
+    if st.session_state.get("show_prediction", False):
+
+        st.markdown("---")
+        st.subheader("🚦 Step 1: Risk Profile Prediction")
+        risk_profile.show()
+
+        st.markdown("---")
+        st.subheader("💰 Step 2: Premium Prediction")
+        premium.show()

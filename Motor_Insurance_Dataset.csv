@@ -1,0 +1,1609 @@
+INSURANCE TYPE,VEHICLE TYPE,VEHICLE USE,VEHICLE MAKE,VEHICLE MODEL,VEHICLE MAKE YEAR,SUM INSURED,POLICY PREMIUM,Rate
+Comprehensive,Car,Private,Toyota,Prius,2011,6495000,88691.98,1.365542417
+Comprehensive,Car,Private,Nissan,Sunny,1999,2450000,35266.26,1.439439184
+Comprehensive,Truck,Private,Tata,Dimo Batta,2013,1800000,35278.05,1.959891667
+Comprehensive,Car,Private,Honda,Fit,2012,7150000,97342.67,1.361435944
+Comprehensive,Car,Private,Honda,CRV,2018,24000000,319891.21,1.332880042
+Comprehensive,Car,Private,Toyota,Aqua,2014,7775000,105597.47,1.358166817
+Comprehensive,Car,Private,Toyota,CHR,2018,15975000,213900.53,1.338970454
+Comprehensive,Car,Private,Honda,Grace,2017,11700000,157437.62,1.345620684
+Comprehensive,Car,Private,Jaguar,S-Type,2007,8800000,119134.85,1.353805114
+Comprehensive,van,Private,Toyota,Townace,1996,4590000,63530.71,1.384111329
+Comprehensive,Car,Private,Suzuki,Wagon R,2018,5990000,82021.77,1.369311686
+Comprehensive,Car,Private,Toyota,Corolla 110,1997,3775000,52766.58,1.397790199
+Comprehensive,Car,Private,Nissan,X-Trail,2011,11600000,156116.97,1.345835948
+Comprehensive,Car,Private,Suzuki,Alto Sport,2007,2265000,32822.91,1.449135099
+Comprehensive,Car,Private,Toyota,CHR,2019,16990000,227305.95,1.337880812
+Comprehensive,Car,Private,Honda,Vezel RS,2018,15700000,210268.5,1.339289809
+Comprehensive,Car,Private,Honda,CRV,2015,19000000,253852.85,1.336067632
+Comprehensive,Car,Private,BMW,X1,2018,22500000,300080.5,1.333691111
+Comprehensive,Car,Private,Mitsubishi,Montero,2001,11950000,160739.73,1.345102343
+Comprehensive,Car,Private,BMW,420i COUPE SPORT,2017,37500000,498194.57,1.328518853
+Comprehensive,Car,Private,suzuki,Alto,2017,5425000,74559.76,1.374373456
+Comprehensive,Car,Private,Toyota,Land Cruiser Prado,2010,34800000,462534.1,1.329120977
+Comprehensive,Car,Private,Toyota,Corolla,1984,850000,14133.91,1.662812941
+Comprehensive,Car,Private,Toyota,Land Cruiser Prado,2003,14500000,194418.73,1.340818828
+Comprehensive,Car,Private,Toyota,Allion,2014,12875000,172956.47,1.343351223
+Comprehensive,Car,Private,Mercedes Benz,C200,2019,31000000,412345.51,1.330146806
+Comprehensive,Car,Private,Mitsubishi,Lancer,1980,650000,11492.61,1.768093846
+Comprehensive,Car,Private,Suzuki,Alto,2015,2800000,39889.02,1.424607857
+Comprehensive,Car,Private,Toyota,Aqua,2013,7950000,107908.85,1.357344025
+Comprehensive,Car,Private,Mitsubishi,Outlander,2014,14000000,187815.5,1.341539286
+Comprehensive,Car,Private,Toyota,CHR,2017,15200000,203664.26,1.339896447
+Comprehensive,Car,Private,Toyota,Premio,2013,13200000,177249.32,1.342797879
+Comprehensive,Car,Private,Ford,Ranger,2016,29500000,392533.8,1.330623051
+Comprehensive,Car,Private,Toyota,Prius,2012,8900000,120455.5,1.353432584
+Comprehensive,Car,Private,Honda,Vezel,2015,11250000,151494.2,1.346615111
+Comprehensive,Three wheeler,Private,Bajaj,RE,2008,750000,16748.91,2.233188
+Comprehensive,Car,Private,Toyota,Premio,2017,17900000,239324.74,1.337009721
+Comprehensive,Car,Private,Audi,A4,2011,11750000,158097.44,1.345510128
+Comprehensive,Car,Private,Honda,Civic,2017,14400000,193098.09,1.340958958
+Comprehensive,Car,Private,Toyota,Voxy,2014,19400000,259136.44,1.335754845
+Comprehensive,Car,Private,Peugeot,508,2011,13500000,181211.26,1.34230563
+Comprehensive,Car,Private,Bajaj,Pulsar 180,2016,180000,7729.42,4.294122222
+Comprehensive,Car,Private,Suzuki,Swift,2003,4150000,57719.26,1.390825542
+Comprehensive,Car,Private,BMW,520d,2012,20875000,278617.24,1.334693365
+Comprehensive,Car,Private,Mini,Cooper,2015,18775000,250881.65,1.336253795
+Comprehensive,Car,Private,Toyota,Land Cruiser Prado,2016,56500000,749140.52,1.325912425
+Comprehensive,Car,Private,Mercedes Benz,C180,2016,21250000,283570.91,1.334451341
+Comprehensive,Car,Private,Honda,Fit Shuttle,2014,9690000,130889.71,1.350771001
+Comprehensive,Car,Private,Mercedes Benz,C200,2018,33590000,446553.37,1.329423549
+Comprehensive,Car,Private,Nissan,Sunny,1994,1990000,29190.88,1.466878392
+Comprehensive,Car,Private,Audi,Q2,2018,17650000,236022.62,1.33723864
+Comprehensive,Car,Private,Renault,KWID,2016,3050000,43191.14,1.416102951
+Comprehensive,Car,Private,Toyota,Aqua,2014,7690000,104474.77,1.358579584
+Comprehensive,Car,Private,Toyota,Prius,2013,9750000,131682.5,1.350589744
+Comprehensive,Car,Private,Mitsubishi,Lancer,2008,7690000,104474.77,1.358579584
+Comprehensive,Car,Private,Nissan,Sunny,2005,4200000,58380.08,1.390001905
+Comprehensive,Car,Private,Micro,Panda,2016,2750000,39229.2,1.426516364
+Comprehensive,Car,Private,Toyota,Vitz,2017,8490000,115040.94,1.355016961
+Comprehensive,Car,Private,Toyota,Aqua,2013,7790000,105795.41,1.358092555
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2017,6900000,94040.56,1.362906667
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2017,6925000,94370.47,1.362750469
+Comprehensive,Car,Private,Mercedes Benz,C200,2017,28500000,379326.33,1.330969579
+Comprehensive,Car,Private,Mercedes Benz,CLA 200,2019,32950000,438099.62,1.329589135
+Comprehensive,Car,Private,Audi,Q3,2017,17950000,239985.56,1.336966908
+Comprehensive,Car,Private,Datsun,Redi Go,2016,2650000,37908.55,1.430511321
+Comprehensive,Car,Private,DFSK,Glory,2019,9350000,126399.91,1.351870695
+Comprehensive,Car,Private,Toyota,Corolla,1997,3675000,51445.94,1.399889524
+Comprehensive,Car,Private,Toyota,Hilux,2017,27995000,372656.11,1.331152384
+Comprehensive,Car,Private,Hyundai,Venue,2019,10900000,146871.44,1.347444404
+Comprehensive,Car,Private,Kia,Sportage,2011,10725000,144560.06,1.347879347
+Comprehensive,Car,Private,Honda,Grace,2015,11375000,153144.76,1.34632756
+Comprehensive,Car,Private,Audi,A4,2011,11750000,158097.44,1.345510128
+Comprehensive,Car,Private,Honda,Fit,2014,8500000,115172.91,1.354975412
+Comprehensive,Car,Private,Jaguar,XF,2014,18500000,247249.62,1.336484432
+Comprehensive,Car,Private,Toyota,CHR,2018,16500000,220833.68,1.338385939
+Comprehensive,Car,Private,Nissan,X-Trail,2016,13500000,181211.26,1.34230563
+Comprehensive,Car,Private,BMW,318i,2017,21950000,292815.44,1.334011116
+Comprehensive,Car,Private,Mitsubishi,Outlander,2013,14000000,187815.5,1.341539286
+Comprehensive,Car,Private,Toyota,Avanza,2008,5950000,81493.91,1.369645546
+Comprehensive,Car,Private,Toyota,Corona,1991,1875000,27672.29,1.475855467
+Comprehensive,Car,Private,Honda,Vezel,2014,10850000,146210.62,1.347563318
+Comprehensive,Car,Private,Nissan,X-Trail,2016,12200000,164040.85,1.344597131
+Comprehensive,Car,Private,Mercedes Benz,E200,2013,25000000,333099.68,1.33239872
+Comprehensive,Car,Private,Toyota,Passo,2020,8100000,109890.32,1.356670617
+Comprehensive,Car,Private,Toyota,Land Cruiser Sahara,2018,128000000,1693487.19,1.323036867
+Comprehensive,Car,Private,Land Rover,Range Rover Velar,2019,64500000,854801.28,1.325273302
+Comprehensive,Car,Private,MG,MG4 X,2024,19950000,266400.5,1.335340852
+Comprehensive,Car,Private,BMW,X5,2016,37500000,498194.57,1.328518853
+Comprehensive,Car,Private,Nissan,AD Wagon,1991,1790000,26549.59,1.483217318
+Comprehensive,Car,Private,Toyota,Corolla,1992,2090000,30511.53,1.459881818
+Comprehensive,Car,Private,Nissan,Wingroad,2005,4275000,59370.82,1.388791111
+Comprehensive,Car,Private,Toyota,Prius,2014,10925000,147201.35,1.347380778
+Comprehensive,Car,Private,Toyota,Toyota,2013,7650000,103946.91,1.358783137
+Comprehensive,Car,Private,Honda,Vezel,2016,12250000,164701.67,1.344503429
+Comprehensive,Car,Private,Toyota,Corolla,2006,6385000,87238.37,1.366301801
+Comprehensive,Car,Private,Audi,Q2,2017,17750000,237343.27,1.337145183
+Comprehensive,Car,Private,Toyota,Harrier,2017,31150000,414325.98,1.330099454
+Comprehensive,Car,Private,Honda,Civic,2017,16000000,214230.44,1.33894025
+Comprehensive,Car,Private,Nissan,X-Trail,2016,12375000,166352.23,1.344260444
+Comprehensive,Car,Private,Suzuki,Alto,2011,2690000,38436.41,1.428862825
+Comprehensive,Car,Private,Tata,Nano,2017,2250000,32624.96,1.449998222
+Comprehensive,Car,Private,Suzuki,Maruti,2012,1995000,29256.86,1.466509273
+Comprehensive,Car,Private,Land Rover,Discovery,2010,32500000,432156.21,1.329711415
+Comprehensive,Car,Private,Honda,Vezel,2014,9890000,133532,1.350171891
+Comprehensive,Car,Private,Nissan,X-Trail,2004,5875000,80503.17,1.370266723
+Comprehensive,Car,Private,Nissan,Sunny,1994,1990000,29190.88,1.466878392
+Comprehensive,Car,Private,Mercedes Benz,E200,2010,14000000,187815.5,1.341539286
+Comprehensive,Car,Private,Ssang Yong,Kyron,2008,5525000,75880.41,1.373401086
+Comprehensive,Car,Private,Audi,Q2,2017,16500000,220833.68,1.338385939
+Comprehensive,Car,Private,Mitsubishi,Montero,2008,9750000,131682.5,1.350589744
+Comprehensive,Car,Private,BMW,X5,2016,34800000,462534.1,1.329120977
+Comprehensive,Car,Private,Land Rover,Defender,2013,45000000,597252.1,1.327226889
+Comprehensive,Car,Private,BMW,X3,2013,19800000,264419.03,1.335449646
+Comprehensive,Car,Private,Land Rover,Discovery,2010,24750000,329797.56,1.332515394
+Comprehensive,Car,Private,Peugeot,5008,2019,23750000,316590.09,1.333010905
+Comprehensive,Car,Private,Toyota,Hilux,2015,21000000,280268.8,1.334613333
+Comprehensive,Car,Private,Toyota,Aqua,2012,7180000,97738.57,1.361261421
+Comprehensive,Car,Private,BMW,520d,2013,27000000,359514.62,1.33153563
+Comprehensive,Car,Private,Toyota,Corolla,2009,7450000,101304.61,1.359793423
+Comprehensive,Car,Private,Toyota,Axio,2018,15525000,207957.12,1.339498357
+Comprehensive,Car,Private,Perodua,Viva Elite,2010,4285000,59502.78,1.388629638
+Comprehensive,Car,Private,Toyota,Vitz,2008,5690000,78059.83,1.371877504
+Comprehensive,Car,Private,BMW,520d,2015,34950000,464515.57,1.329086037
+Comprehensive,Car,Private,Toyota,CHR,2018,15290000,204852.95,1.339783846
+Comprehensive,Car,Private,Audi,A6,2014,17950000,239985.56,1.336966908
+Comprehensive,Car,Private,Nissan,March,2007,4200000,58380.08,1.390001905
+Comprehensive,Car,Private,Suzuki,Alto,2012,3100000,43851.97,1.414579677
+Comprehensive,Car,Private,BMW,iX xDrive40,2023,77500000,1026501.41,1.324517948
+Comprehensive,Car,Private,Toyota,Land Cruiser Prado,2013,38500000,511403.04,1.328319584
+Comprehensive,Car,Private,BYD,Seal,2024,35500000,471779.63,1.328956704
+Comprehensive,Car,Private,Porsche,Taycan,2023,125000000,1653864.78,1.323091824
+Comprehensive,Car,Private,Mercedes Benz,E200,2010,15500000,207626.21,1.339523935
+Comprehensive,Car,Private,Suzuki,Maruti,2005,1650000,24700.08,1.496974545
+Comprehensive,Car,Private,Honda,Fit,2013,8290000,112399.65,1.3558462
+Comprehensive,Car,Private,Suzuki,Alto,2015,3395000,47747.92,1.406418851
+Comprehensive,Car,Private,Kia,Cerato,2009,5900000,80833.08,1.370052203
+Comprehensive,Car,Private,BMW,316i,2014,17800000,238004.09,1.337101629
+Comprehensive,Car,Private,Mercedes Benz,E200,2011,24000000,319891.21,1.332880042
+Comprehensive,Car,Private,Suzuki,Maruti,2004,1585000,23842.31,1.504246688
+Comprehensive,Car,Private,Toyota,Camry,2011,10800000,145550.79,1.3476925
+Comprehensive,Car,Private,Toyota,Premio,2013,12590000,169192.48,1.343864019
+Comprehensive,Car,Private,Hyundai,Grand i10,2024,9439999,127588.58,1.351574084
+Comprehensive,Car,Private,Audi,A5,2019,33750000,448665.8,1.329380148
+Comprehensive,Car,Private,Toyota,Sprinter,1996,2700000,2700000,100
+Comprehensive,Car,Private,Toyota,Prius,2013,9950000,134323.79,1.349987839
+Comprehensive,Car,Private,BMW,430i,2017,45000000,597252.1,1.327226889
+Comprehensive,Car,Private,Nissan,March,1990,725000,12483.35,1.721841379
+Comprehensive,Car,Private,Toyota,Land Cruiser Sahara,1998,18500000,247249.62,1.336484432
+Comprehensive,Car,Private,Mercedes Benz,CLA 200,2019,27450000,365458.03,1.331358944
+Comprehensive,Car,Private,Peugeot,508,2018,17000000,227437.91,1.337870059
+Comprehensive,Car,Private,Nissan,X-Trail,2016,12085000,162522.26,1.344826314
+Comprehensive,Car,Private,Ssang Yong,Rexton,2009,7500000,101965.44,1.3595392
+Comprehensive,Car,Private,Land Rover,Range Rover Sport,2017,52500000,696309.63,1.326304057
+Comprehensive,Car,Private,Suzuki,Alto,2004,3325000,46823.17,1.408215639
+Comprehensive,Car,Private,Land Rover,Freelander,2011,12300000,165362.5,1.344410569
+Comprehensive,Car,Private,Jaguar,X-Type,2008,7300000,99324.14,1.360604658
+Comprehensive,Car,Private,Honda,Fit,2015,9475000,128050.47,1.351456148
+Comprehensive,Car,Private,Audi,Q2,2018,16975000,227108,1.337896907
+Comprehensive,Car,Private,Nissan,Juke,2020,15500000,207626.21,1.339523935
+Comprehensive,Car,Private,Toyota,Corolla,2008,6890000,93908.59,1.362969376
+Comprehensive,Car,Private,Toyota,Starlet,1997,3190000,45040.65,1.411932602
+Comprehensive,Car,Private,Honda,Fit,2015,8350000,113191.44,1.355586108
+Comprehensive,Car,Private,Toyota,Belta,2010,6950000,94701.38,1.362609784
+Comprehensive,Car,Private,Honda,Accord,2020,26990000,359382.66,1.331540052
+Comprehensive,Car,Private,BMW,X1,2020,33900000,450647.27,1.329342979
+Comprehensive,Car,Private,Peugeot,3008,2018,21250000,283570.91,1.334451341
+Comprehensive,Car,Private,Porsche,718 Cayman,2018,68000000,901027.93,1.325041074
+Comprehensive,Car,Private,Suzuki,Baleno,2016,8700000,117814.2,1.354186207
+Comprehensive,Car,Private,Mitsubishi,Lancer,2004,5980000,81889.8,1.369394649
+Comprehensive,Car,Private,Honda,Vezel,2019,18700000,249890.91,1.336315027
+Comprehensive,Car,Private,Toyota,Voxy,2015,19500000,260457.09,1.335677385
+Comprehensive,Car,Private,Suzuki,Suzuki,2003,4895000,67559.63,1.380176302
+Comprehensive,Car,Private,Peugeot,3008,2018,21000000,280268.8,1.334613333
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2018,7275000,98993.23,1.360731684
+Comprehensive,Car,Private,BMW,520d,2014,31500000,418948.74,1.329996
+Comprehensive,Car,Private,MG,ZS,2019,11000000,148192.09,1.347200818
+Comprehensive,Car,Private,Suzuki,Swift,2003,4090000,56927.47,1.391869682
+Comprehensive,Car,Private,Toyota,Premio,2003,8500000,115172.91,1.354975412
+Comprehensive,Car,Private,Toyota,Land Cruiser Sahara,2011,67500000,894424.7,1.32507363
+Comprehensive,Car,Private,Audi,A8,2014,39800000,528572.45,1.328071482
+Comprehensive,Car,Private,Toyota,Corolla,1987,1690000,25228.94,1.492836686
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2015,5775000,79182.53,1.371126061
+Comprehensive,Car,Private,Mitsubishi,Montero,2007,20800000,277627.5,1.334747596
+Comprehensive,Car,Private,Mitsubishi,Montero,2004,13500000,181211.26,1.34230563
+Comprehensive,Car,Private,Suzuki,Wagon R,2016,5475000,75219.58,1.373873607
+Comprehensive,Car,Private,Suzuki,Spacia,2014,6100000,83474.38,1.368432459
+Comprehensive,Car,Private,Hyundai,Atos,2001,2095000,30577.51,1.459547017
+Comprehensive,Car,Private,Toyota,CHR,2018,16700000,223475.97,1.338179461
+Comprehensive,Car,Private,Toyota,Corsa,1996,3295000,46427.28,1.409022155
+Comprehensive,Car,Private,Audi,A3,2017,13500000,181211.26,1.34230563
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2014,5825000,79842.35,1.37068412
+Comprehensive,Car,Private,Toyota,Allion,2013,12975000,174277.12,1.343176262
+Comprehensive,Car,Private,Hyundai,Tucson,2011,8650000,117154.38,1.354385896
+Comprehensive,Car,Private,BMW,X1,2017,22500000,300080.5,1.333691111
+Comprehensive,Car,Private,Toyota,Harrier,2017,36900000,490270.69,1.328646856
+Comprehensive,Car,Private,Suzuki,Wagon R,2015,5375000,73898.94,1.374864
+Comprehensive,Car,Private,Daihatsu,Charade,1999,2795000,39823.04,1.424795707
+Comprehensive,Car,Private,Audi,Q2,2018,17500000,234042.15,1.337383714
+Comprehensive,Car,Private,Toyota,Hilux,1996,3250000,45832.44,1.410228923
+Comprehensive,Car,Private,Toyota,Yaris,2007,6200000,84795.03,1.367661774
+Comprehensive,Car,Private,Honda,Odyssey,2001,5950000,81493.91,1.369645546
+Comprehensive,Car,Private,Mitsubishi,Montero,2012,16800000,224796.62,1.338075119
+Comprehensive,Car,Private,Audi,A3,2017,14500000,194418.73,1.340818828
+Comprehensive,Car,Private,Honda,Grace,2016,11200000,150833.38,1.346726607
+Comprehensive,Car,Private,Toyota,Prius,2014,10590000,142776.53,1.348220302
+Comprehensive,Car,Private,Mitsubishi,Montero,2018,16500000,220833.68,1.338385939
+Comprehensive,Car,Private,Land Rover,Range Rover,2020,124500000,1647260.54,1.323100835
+Comprehensive,Car,Private,Toyota,Corolla,2002,5300000,72908.2,1.375626415
+Comprehensive,Car,Private,Toyota,Hilux,2018,20500000,273664.56,1.334949073
+Comprehensive,Car,Private,Toyota,Land Cruiser Sahara,2007,34000000,451967.92,1.329317412
+Comprehensive,Car,Private,Suzuki,Swift,2002,3695000,51709.87,1.39945521
+Comprehensive,Car,Private,Toyota,CE90,1991,1765000,26219.68,1.485534278
+Comprehensive,Car,Private,Audi,Q2,2017,17650000,236022.62,1.33723864
+Comprehensive,Car,Private,DFSK,Glory,2022,13400000,179890.62,1.342467313
+Comprehensive,Car,Private,Kia,Sorento,2010,12950000,173947.2,1.343221622
+Comprehensive,Car,Private,Toyota,Prius,2013,11000000,148192.09,1.347200818
+Comprehensive,Car,Private,Honda,CRV,2018,22700000,302721.8,1.333576211
+Comprehensive,Car,Private,Mercedes Benz,C180,2003,5800000,79512.44,1.370904138
+Comprehensive,Car,Private,Nissan,Wingroad,2000,2650000,37908.55,1.430511321
+Comprehensive,Car,Private,Suzuki,Alto,2015,5300000,72908.2,1.375626415
+Comprehensive,Car,Private,Suzuki,Swift,2009,5590000,76738.18,1.372776029
+Comprehensive,Car,Private,Nissan,Sunny,1980,550000,10171.96,1.849447273
+Comprehensive,Car,Private,Suzuki,Swift,2002,3990000,55606.82,1.393654637
+Comprehensive,Car,Private,Mercedes Benz,E200,2010,14000000,187815.5,1.341539286
+Comprehensive,Car,Private,Ssang Yong,Kyron,2008,5525000,75880.41,1.373401086
+Comprehensive,Car,Private,Mitsubishi,Montero,2008,9750000,131682.5,1.350589744
+Comprehensive,Car,Private,Land Rover,Defender,2013,45000000,597252.1,1.327226889
+Comprehensive,Car,Private,Toyota,Hilux,2015,21000000,280268.8,1.334613333
+Comprehensive,Car,Private,Toyota,Corolla,2009,7450000,101304.61,1.359793423
+Comprehensive,Car,Private,Toyota,Axio,2018,15525000,207957.12,1.339498357
+Comprehensive,Car,Private,Suzuki,Alto,2015,3850000,53757.32,1.396294026
+Comprehensive,Car,Private,Honda,CRV,2005,7200000,98002.5,1.361145833
+Comprehensive,Car,Private,Honda,Civic,2018,14650000,196400.21,1.340615768
+Comprehensive,Car,Private,BMW,740Le,2017,52500000,696309.63,1.326304057
+Comprehensive,Car,Private,Peugeot,3008,2018,21450000,286212.21,1.334322657
+Comprehensive,Car,Private,Mercedes Benz,E300,2015,22950000,306023.91,1.333437516
+Comprehensive,Car,Private,Perodua,Axia,2019,7300000,99324.14,1.360604658
+Comprehensive,Car,Private,Tata,Nano,2017,2300000,33285.79,1.447208261
+Comprehensive,Car,Private,Toyota,Vitz,2016,7400000,100644.79,1.36006473
+Comprehensive,Car,Private,Hyundai,Venue,2019,10500000,141587.85,1.348455714
+Comprehensive,Car,Private,Toyota,Corolla,1986,750000,12813.26,1.708434667
+Comprehensive,Car,Private,Toyota,Aqua,2012,6950000,94701.38,1.362609784
+Comprehensive,Car,Private,Toyota,Land Cruiser Sahara,2014,93500000,1237823.94,1.323875872
+Comprehensive,Car,Private,Suzuki,Alto,2013,2985000,42332.37,1.418169849
+Comprehensive,Car,Private,Suzuki,Swift,2017,9450000,127720.56,1.351540317
+Comprehensive,Car,Private,Micro,Kyron,2009,5675000,77860.88,1.371997885
+Comprehensive,Car,Private,Audi,A1,2018,9975000,134654.7,1.349921805
+Comprehensive,Car,Private,Toyota,Prius,2012,9750000,131682.5,1.350589744
+Comprehensive,Car,Private,Honda,CRV,2018,28500000,379326.33,1.330969579
+Comprehensive,Car,Private,Honda,Civic,2018,15000000,201022.97,1.340153133
+Comprehensive,Car,Private,Nissan,X-Trail,2010,8550000,115833.73,1.354780468
+Comprehensive,Car,Private,Toyota,Corolla,2008,6795000,92653.93,1.363560412
+Comprehensive,Car,Private,Suzuki,Alto,2016,2990000,42398.35,1.418005017
+Comprehensive,Car,Private,Audi,Q3,2018,21875000,291825.71,1.334060389
+Comprehensive,Car,Private,Mazda,Familia,2000,2850000,40549.85,1.422801754
+Comprehensive,Car,Private,Toyota,Axio,2016,11650000,156776.79,1.345723519
+Comprehensive,Car,Private,BMW,520d,2012,21800000,290834.97,1.334105367
+Comprehensive,Car,Private,Toyota,CHR,2019,17650000,236022.62,1.33723864
+Comprehensive,Car,Private,Land Rover,Defender,2014,46800000,621025.75,1.326978098
+Comprehensive,Car,Private,Toyota,Allion,2010,10950000,147531.26,1.347317443
+Comprehensive,Car,Private,Toyota,Vitz,2019,11250000,151494.2,1.346615111
+Comprehensive,Car,Private,BMW,523i,2007,11275000,151824.12,1.346555388
+Comprehensive,Car,Private,Mercedes Benz,C220,2013,15950000,213569.62,1.338994483
+Comprehensive,Car,Private,BMW,X5,2016,31250000,415646.62,1.330069184
+Comprehensive,Car,Private,Perodua,Axia,2016,5775000,79182.53,1.371126061
+Comprehensive,Car,Private,Suzuki,Alto,2011,2785000,39691.08,1.425173429
+Comprehensive,Car,Private,Toyota,Yaris,2008,6100000,83474.38,1.368432459
+Comprehensive,Car,Private,Suzuki,Maruti,2007,1985000,29124.9,1.46724937
+Comprehensive,Car,Private,Suzuki,Swift,2002,3700000,51775.85,1.399347297
+Comprehensive,Car,Private,Nissan,Dayz,2016,5625000,77201.05,1.372463111
+Comprehensive,Car,Private,Honda,Civic,2017,13700000,183852.56,1.341989489
+Comprehensive,Car,Private,Honda,Civic,2011,8150000,110550.14,1.356443436
+Comprehensive,Car,Private,Maruti,Suzuki,2011,2175000,31634.23,1.454447356
+Comprehensive,Car,Private,Honda,Vezel,2016,13800000,185173.2,1.341834783
+Comprehensive,Car,Private,Toyota,Corolla,1996,2790000,39757.06,1.424984229
+Comprehensive,Car,Private,Mercedes Benz,E200,2013,23500000,313287.97,1.333140298
+Comprehensive,Car,Private,Audi,Q2,2017,16290000,218060.42,1.338615224
+Comprehensive,Car,Private,Honda,Vezel,2016,14200000,190456.79,1.341245
+Comprehensive,Car,Private,Toyota,Raize,2019,14250000,191116.62,1.341169263
+Comprehensive,Car,Private,Mitsubishi,Outlander,2015,14800000,198380.68,1.34041
+Comprehensive,Car,Private,Toyota,Axio,2008,7325000,99654.06,1.360464983
+Comprehensive,Car,Private,Toyota,Prius,2013,10700000,144230.14,1.347945234
+Comprehensive,Car,Private,Suzuki,Hustler,2016,6375000,87106.41,1.366375059
+Comprehensive,Car,Private,Toyota,CHR,2018,16500000,220833.68,1.338385939
+Comprehensive,Car,Private,Toyota,Premio,2014,13750000,184513.38,1.341915491
+Comprehensive,Car,Private,Renault,KWID,2016,3375000,47483.99,1.406933037
+Comprehensive,Car,Private,Toyota,Allion,2010,10250000,138286.73,1.349138829
+Comprehensive,Car,Private,MG,ZS,2019,10800000,145550.79,1.3476925
+Comprehensive,Car,Private,Mercedes Benz,E300,2015,22200000,296117.56,1.333862883
+Comprehensive,Car,Private,Nissan,Sunny,2004,4750000,65644.14,1.381981895
+Comprehensive,Car,Private,Toyota,Prius,2013,10890000,146739.47,1.347469881
+Comprehensive,Car,Private,Toyota,Fortuner,2013,19900000,265740.68,1.335380302
+Comprehensive,Car,Private,Toyota,Vitz,2018,9300000,125739.09,1.352033226
+Comprehensive,Car,Private,Toyota,Land Cruiser Prado,2008,20500000,273664.56,1.334949073
+Comprehensive,Car,Private,Suzuki,Wagon R,2018,6890000,93908.59,1.362969376
+Comprehensive,Car,Private,Suzuki,Alto,2015,3275000,46163.35,1.409567939
+Comprehensive,Car,Private,Toyota,Premio,2014,14250000,191116.62,1.341169263
+Comprehensive,Car,Private,Toyota,Hilux,2011,12650000,169984.26,1.343749091
+Comprehensive,Car,Private,Toyota,Vitz,2018,9650000,130361.85,1.3509
+Comprehensive,Car,Private,Toyota,Allion,2013,12850000,172626.56,1.343397354
+Comprehensive,Car,Private,Toyota,Aqua,2013,7790000,105795.41,1.358092555
+Comprehensive,Car,Private,Toyota,Passo,2011,5350000,73569.02,1.375121869
+Comprehensive,Car,Private,Toyota,Premio,2015,14900000,199702.32,1.340284027
+Comprehensive,Car,Private,Honda,Fit Shuttle,2016,12200000,164040.85,1.344597131
+Comprehensive,Car,Private,Toyota,Corolla,1989,775000,13144.17,1.696021935
+Comprehensive,Car,Private,Maruti Suzuki,Alto,2007,2418000,34843.97,1.4410244
+Comprehensive,Car,Private,BMW,520d,2013,25100000,334420.33,1.332351912
+Comprehensive,Car,Private,Proton,Wira,2000,2075000,30313.58,1.460895422
+Comprehensive,Car,Private,Nissan,Sunny,2001,3875000,54087.23,1.395799484
+Comprehensive,Car,Private,Toyota,Vitz,2007,5500000,75549.5,1.373627273
+Comprehensive,Car,Private,Suzuki,Alto,2016,5250000,72248.38,1.376159619
+Comprehensive,Car,Private,Toyota,Corolla,1996,2850000,40549.85,1.422801754
+Comprehensive,Car,Private,Mitsubishi,eK Wagon,2018,6390000,87304.35,1.366265258
+Comprehensive,Car,Private,Nissan,Sunny,2001,3890000,54285.18,1.395505913
+Comprehensive,Car,Private,Toyota,Corolla,1995,2800000,39889.02,1.424607857
+Comprehensive,Car,Private,Mercedes Benz,C180,2011,13500000,181211.26,1.34230563
+Comprehensive,Car,Private,Land Rover,Range Rover Sport,2019,67500000,894424.7,1.32507363
+Comprehensive,Car,Private,Mercedes Benz,E300,2016,25500000,339702.92,1.332168314
+Comprehensive,Car,Private,BMW,530e,2018,38500000,511403.04,1.328319584
+Comprehensive,Car,Private,Nissan,Sunny,2000,3575000,50125.29,1.402106014
+Comprehensive,Car,Private,Honda,Civic,2011,7150000,97342.67,1.361435944
+Comprehensive,Car,Private,Suzuki,Alto,2014,3250000,45832.44,1.410228923
+Comprehensive,Car,Private,Mazda,Demio,1997,2575000,36917.82,1.433701748
+Comprehensive,Car,Private,Suzuki,Alto,2015,3150000,44511.79,1.413072698
+Comprehensive,Car,Private,Tata,Indica,2006,1775000,26351.64,1.484599437
+Comprehensive,Car,Private,Toyota,Premio,2016,15750000,210928.32,1.339227429
+Comprehensive,Car,Private,Land Rover,Discovery,2019,54500000,722724.57,1.326100128
+Comprehensive,Car,Private,Toyota,Premio,2019,19675000,262768.47,1.335544956
+Comprehensive,Car,Private,Toyota,Land Cruiser Sahara,2011,69500000,920839.64,1.324949122
+Comprehensive,Car,Private,Suzuki,Swift,2004,4295000,59634.75,1.38846915
+Comprehensive,Car,Private,Toyota,Corsa,1999,2875000,40879.76,1.421904696
+Comprehensive,Car,Private,Toyota,Axio,2015,11500000,154796.32,1.346054957
+Comprehensive,Car,Private,Suzuki,Maruti,2011,1950000,28663.02,1.469898462
+Comprehensive,Car,Private,Mercedes Benz,C200,2002,6000000,82153.73,1.369228833
+Comprehensive,Car,Private,Audi,A6,2017,24200000,322533.5,1.332783058
+Comprehensive,Car,Private,Toyota,Axio,2014,9850000,133003.14,1.350285685
+Comprehensive,Car,Private,Audi,Q7,2017,44500000,590648.86,1.327300809
+Comprehensive,Car,Private,Mini,Cooper,2019,16900000,226117.27,1.337972012
+Comprehensive,Car,Private,Mitsubishi,Pajero,2001,3800000,53096.49,1.397276053
+Comprehensive,Car,Private,Suzuki,Swift,2017,9250000,125078.26,1.352197405
+Comprehensive,Car,Private,Honda,Civic,2018,14700000,197060.03,1.340544422
+Comprehensive,Car,Private,Toyota,Aqua,2013,7390000,100512.83,1.360119486
+Comprehensive,Car,Private,Toyota,CHR,2017,15475000,207296.29,1.339555994
+Comprehensive,Car,Private,Toyota,Corolla,2008,6975000,95031.29,1.362455771
+Comprehensive,Car,Private,Toyota,Vitz,2018,9395000,126993.75,1.351716338
+Comprehensive,Car,Private,BMW,520d,2013,25500000,339702.92,1.332168314
+Comprehensive,Car,Private,Mercedes Benz,E200,2016,42500000,564232.92,1.327606871
+Comprehensive,Car,Private,Nissan,Sunny,2005,4200000,58380.08,1.390001905
+Comprehensive,Car,Private,Toyota,Aqua,2013,7790000,105795.41,1.358092555
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2017,6925000,94370.47,1.362750469
+Comprehensive,Car,Private,Datsun,Redi Go,2016,2650000,37908.55,1.430511321
+Comprehensive,Car,Private,Toyota,Corolla,1997,3675000,51445.94,1.399889524
+Comprehensive,Car,Private,Hyundai,Venue,2019,10900000,146871.44,1.347444404
+Comprehensive,Car,Private,Kia,Sportage,2011,10725000,144560.06,1.347879347
+Comprehensive,Car,Private,Honda,Grace,2015,11375000,153144.76,1.34632756
+Comprehensive,Car,Private,Honda,Fit,2014,8500000,115172.91,1.354975412
+Comprehensive,Car,Private,Jaguar,XF,2014,18500000,247249.62,1.336484432
+Comprehensive,Car,Private,Nissan,X-Trail,2016,13500000,181211.26,1.34230563
+Comprehensive,Car,Private,Mitsubishi,Outlander,2013,14000000,187815.5,1.341539286
+Comprehensive,Car,Private,Toyota,Corona,1991,1875000,27672.29,1.475855467
+Comprehensive,Car,Private,Honda,Vezel,2014,10850000,146210.62,1.347563318
+Comprehensive,Car,Private,Toyota,Passo,2020,8100000,109890.32,1.356670617
+Comprehensive,Car,Private,Nissan,Wingroad,2005,4275000,59370.82,1.388791111
+Comprehensive,Car,Private,Nissan,March,1987,895000,14728.75,1.645670391
+Comprehensive,Car,Private,Toyota,Carina,1986,1075000,17106.11,1.591266047
+Comprehensive,Car,Private,Toyota,Prius,2015,11690000,157305.65,1.345642857
+Comprehensive,Car,Private,Toyota,Rush,2018,17375000,232390.59,1.337499799
+Comprehensive,Car,Private,Toyota,Axio,2017,14375000,192768.18,1.340996035
+Comprehensive,Car,Private,Toyota,Vitz,2019,9990000,134852.65,1.349876376
+Comprehensive,Car,Private,Volkswagen,Polo,2018,13800000,185173.2,1.341834783
+Comprehensive,Car,Private,Toyota,Allion,2018,17100000,228758.56,1.337769357
+Comprehensive,Car,Private,Toyota,Land Cruiser Prado,2007,21900000,292155.62,1.334043927
+Comprehensive,Car,Private,Toyota,Vitz,2016,7950000,107908.85,1.357344025
+Comprehensive,Car,Private,Mazda,6,2015,14700000,197060.03,1.340544422
+Comprehensive,Car,Private,Toyota,Aqua,2015,8450000,114512.09,1.355172663
+Comprehensive,Car,Private,BMW,X5,2016,34500000,458572.15,1.329194638
+Comprehensive,Car,Private,Toyota,Corolla,2003,5995000,82087.75,1.369270225
+Comprehensive,Car,Private,Nissan,Sunny,2010,6075000,83144.47,1.368633251
+Comprehensive,Car,Private,Mercedes Benz,E250,2013,25400000,338382.27,1.332213661
+Comprehensive,Car,Private,BMW,318i,2017,19975000,266730.41,1.335321202
+Comprehensive,Car,Private,Honda,CRV,2018,27800000,370080.8,1.331225899
+Comprehensive,Car,Private,Toyota,Aqua,2013,7950000,107908.85,1.357344025
+Comprehensive,Car,Private,Mitsubishi,Pajero,1996,5275000,72578.29,1.375891754
+Comprehensive,Car,Private,MG,6,2013,8950000,121116.32,1.353254972
+Comprehensive,Car,Private,Honda,Fit Shuttle,2012,8295000,112465.63,1.355824352
+Comprehensive,Car,Private,Toyota,Prius,2008,6550000,89417.79,1.365157099
+Comprehensive,Car,Private,Toyota,Corolla,1977,750000,12813.26,1.708434667
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2018,7375000,100313.88,1.360188203
+Comprehensive,Car,Private,Toyota,Prius,2014,10750000,144889.97,1.347813674
+Comprehensive,Car,Private,Toyota,Allion,2010,10300000,138946.56,1.348995728
+Comprehensive,Car,Private,Toyota,Allion,2013,12975000,174277.12,1.343176262
+Comprehensive,Car,Private,Daihatsu,Mira,2016,5390000,74096.88,1.374710204
+Comprehensive,Car,Private,Toyota,Axio,2016,13190000,177116.36,1.342807885
+Comprehensive,Car,Private,Honda,Vezel,2016,13790000,185041.24,1.341850906
+Comprehensive,Car,Private,Nissan,Pulsar,1997,2650000,37908.55,1.430511321
+Comprehensive,Car,Private,Honda,Vezel,2017,14300000,191777.44,1.341100979
+Comprehensive,Car,Private,Toyota,Vitz,2016,7700000,104606.73,1.358528961
+Comprehensive,Car,Private,Toyota,CHR,2018,15950000,213569.62,1.338994483
+Comprehensive,Car,Private,Toyota,IST,2008,7250000,98663.32,1.360873379
+Comprehensive,Car,Private,Toyota,Hilux,2007,11200000,150833.38,1.346726607
+Comprehensive,Car,Private,Honda,CRV,2018,24000000,319891.21,1.332880042
+Comprehensive,Car,Private,Mitsubishi,Lancer,2000,3565000,50040.96,1.403673492
+Comprehensive,Car,Private,Suzuki,Swift,2010,4450000,61266.96,1.376785618
+Comprehensive,Car,Private,Datsun,Redi Go,2017,2890000,40663.47,1.407040484
+Comprehensive,Car,Private,Toyota,Hilux,2006,11975000,160655.41,1.341590063
+Comprehensive,Car,Private,Toyota,CHR,2019,17690000,236136.24,1.334857207
+Comprehensive,Car,Private,Mitsubishi,Montero,2005,13850000,185419.79,1.338771047
+Comprehensive,Car,Private,Honda,Fit,2016,9500000,127966.14,1.347012
+Comprehensive,Car,Private,Suzuki,Wagon R,2018,6725000,91314.93,1.357842825
+Comprehensive,Car,Private,Porsche,Cayenne,2011,20300000,270609.03,1.333049409
+Comprehensive,Car,Private,Honda,Civic,2019,18000000,240231.14,1.334617444
+Comprehensive,Car,Private,Toyota,Passo,2016,7200000,97588.26,1.3553925
+Comprehensive,Car,Private,Honda,Vezel,2015,11850000,159003.85,1.341804641
+Comprehensive,Car,Private,Toyota,Premio,2017,17900000,238910.5,1.334695531
+Comprehensive,Car,Private,Suzuki,Wagon R,2016,5650000,77116.73,1.364897876
+Comprehensive,Car,Private,Micro,Trend,2012,1550000,22965.2,1.481625806
+Comprehensive,Car,Private,Suzuki,Esteem,2000,1720000,25210.6,1.465732558
+Comprehensive,Car,Private,Micro,MX 7,2014,3350000,46738.84,1.395189254
+Comprehensive,Car,Private,Toyota,Avanza,2011,7250000,98249.08,1.355159724
+Comprehensive,Car,Private,Toyota,Sprinter,1996,3190000,44625.41,1.398915674
+Comprehensive,Car,Private,Nissan,Leaf,2023,20800000,277212.26,1.33275125
+Comprehensive,Car,Private,Toyota,Mark,2007,10300000,138532.32,1.344973981
+Comprehensive,Car,Private,Tata,Indica,2015,2750000,38813.96,1.411416727
+Comprehensive,Car,Private,Renault,KWID,2017,3375000,47068.76,1.394629926
+Comprehensive,Car,Private,Toyota,Tank,2019,9500000,127966.14,1.347012
+Comprehensive,Car,Private,Toyota,Passo,2009,4950000,67871.2,1.371135354
+Comprehensive,Car,Private,Daihatsu,Terios,2003,4650000,63909.26,1.374392688
+Comprehensive,Car,Private,Toyota,Passo,2015,6950000,94286.14,1.356635108
+Comprehensive,Car,Private,Toyota,Corolla,1991,1430000,21380.62,1.495148252
+Comprehensive,Car,Private,Honda,N-Box,2016,6875000,93295.4,1.357024
+Comprehensive,Car,Private,Audi,A4,2017,24000000,319476.97,1.331154042
+Comprehensive,Car,Private,Micro,Panda Cross,2015,4250000,58625.67,1.379427529
+Comprehensive,Car,Private,Suzuki,Swift,2017,9575000,128956.88,1.346808146
+Comprehensive,Car,Private,Honda,Fit,2012,6550000,89003.55,1.358832824
+Comprehensive,Car,Private,Honda,Fit,2012,6690000,90852.06,1.358027803
+Comprehensive,Car,Private,Land Rover,Range Rover,2019,123000000,1627034.6,1.322792358
+Comprehensive,Car,Private,Suzuki,Alto,2017,3680000,51097.68,1.388523913
+Comprehensive,Car,Private,Nissan,March,1996,2075000,29899.34,1.440932048
+Comprehensive,Car,Private,Suzuki,Wagon R,2014,5790000,78965.23,1.363820898
+Comprehensive,Car,Private,Toyota,Aqua,2014,7375000,99899.64,1.35457139
+Comprehensive,Car,Private,Nissan,Sunny,2001,3700000,51361.61,1.388151622
+Comprehensive,Car,Private,Mahindra,KUV100,2021,4975000,68201.11,1.370876583
+Comprehensive,Car,Private,Nissan,X-Trail,2013,11800000,158344.02,1.341898475
+Comprehensive,Car,Private,Mitsubishi,Outlander,2013,14750000,197306.61,1.337671932
+Comprehensive,Car,Private,Honda,Fit,2013,8475000,114427.76,1.350180059
+Comprehensive,Car,Private,Toyota,Vitz,2016,7790000,105381.18,1.352775096
+Comprehensive,Car,Private,Toyota,Corona,1990,1600000,23626.02,1.47662625
+Comprehensive,Car,Private,Toyota,Soluna,2000,3175000,44427.46,1.399290079
+Comprehensive,Car,Private,Mitsubishi,eK Wagon,2016,5550000,75796.08,1.365695135
+Comprehensive,Car,Private,Suzuki,Celerio,2015,4700000,64569.08,1.373810213
+Comprehensive,Car,Private,Suzuki,Alto,2015,3280000,45814.09,1.396771037
+Comprehensive,Car,Private,Tata,Indica,2015,2650000,37493.31,1.414841887
+Comprehensive,Car,Private,Toyota,Starlet,1996,2800000,39474.78,1.409813571
+Comprehensive,Car,Private,Suzuki,Maruti,2011,4050000,55984.37,1.382330123
+Comprehensive,Car,Private,Nissan,Leaf,2014,4300000,59286.49,1.378755581
+Comprehensive,Car,Private,Perodua,Axia,2016,5795000,79031.22,1.363782916
+Comprehensive,Car,Private,Toyota,Corolla,2001,5990000,81607.53,1.36239616
+Comprehensive,Car,Private,Honda,Civic,1994,3000000,42116.08,1.403869333
+Comprehensive,Car,Private,Mitsubishi,Lancer,1979,750000,12399.02,1.653202667
+Comprehensive,Car,Private,Micro,Panda,2018,3750000,52022.43,1.3872648
+Comprehensive,Car,Private,Honda,Grace,2017,12500000,167588.55,1.3407084
+Comprehensive,Car,Private,Toyota,Soluna,2000,2845000,40068.63,1.408387698
+Comprehensive,Car,Private,Nissan,March,2008,4500000,61927.79,1.376173111
+Comprehensive,Car,Private,Jeep,Compass,2019,23000000,306269.5,1.331606522
+Comprehensive,Car,Private,Toyota,Land Cruiser Sahara,2010,80000000,1059105.35,1.323881688
+Comprehensive,Car,Private,Suzuki,Swift,2009,5575000,76125.99,1.36548861
+Comprehensive,Car,Private,Honda,Vezel,2015,10875000,146126.29,1.343690023
+Comprehensive,Car,Private,Micro,Rexton,2015,13800000,184758.97,1.338833116
+Comprehensive,Car,Private,Honda,Fit,2013,7000000,94946.96,1.356385143
+Comprehensive,Car,Private,Suzuki,Alto,2014,3150000,44097.55,1.399922222
+Comprehensive,Car,Private,Tesla,Model Y,2024,39850000,528818.04,1.32702143
+Comprehensive,Car,Private,MG,MG4 X,2024,19650000,262023.32,1.33345201
+Comprehensive,Car,Private,Suzuki,Spacia,2017,5950000,81078.67,1.362666723
+Comprehensive,Car,Private,Mahindra,KUV100,2024,8995000,121295.92,1.348481601
+Comprehensive,Car,Private,Mercedes Benz,C350,2016,24500000,326081.21,1.330943714
+Comprehensive,Car,Private,Suzuki,Maruti,2006,1680000,24681.74,1.46915119
+Comprehensive,Car,Private,Suzuki,Alto,2011,2425000,34936.35,1.440674227
+Comprehensive,Car,Private,Honda,Insight,2011,7400000,100644.79,1.36006473
+Comprehensive,Car,Private,Audi,e-tron,2024,59500000,788762.93,1.325651983
+Comprehensive,Car,Private,Tesla,Model 3,2024,39500000,524610.51,1.328127873
+Comprehensive,Car,Private,Toyota,Corolla,2008,6650000,90738.44,1.36448782
+Comprehensive,Car,Private,Mercedes Benz,EQS,2024,127500000,1686883.96,1.323046243
+Comprehensive,Car,Private,Mercedes Benz,CLA45,2017,39000000,518006.27,1.328221205
+Comprehensive,Car,Private,Volkswagen,ID,2022,25500000,339702.92,1.332168314
+Comprehensive,Car,Private,Toyota,Axio,2015,9950000,134323.79,1.349987839
+Comprehensive,Car,Private,Toyota,Corolla,2010,8500000,115172.91,1.354975412
+Comprehensive,Car,Private,Ssang Yong,Korando,2014,6750000,92059.08,1.363838222
+Comprehensive,Car,Private,Toyota,CHR,2018,14800000,198380.68,1.34041
+Comprehensive,Car,Private,Toyota,Allion,2004,6700000,91399.26,1.36416806
+Comprehensive,Car,Private,Toyota,Vitz,2018,9550000,129041.2,1.351216754
+Comprehensive,Car,Private,Honda,CRZ,2012,6350000,86776.5,1.366559055
+Comprehensive,Car,Private,Honda,Vezel,2017,14500000,194418.73,1.340818828
+Comprehensive,Car,Private,Honda,Fit,2012,8000000,108568.67,1.357108375
+Comprehensive,Car,Private,Toyota,Yaris,2008,6490000,88626,1.365577812
+Comprehensive,Car,Private,Mercedes Benz,W220,2001,7950000,107908.85,1.357344025
+Comprehensive,Car,Private,Nissan,March,1996,2100000,30643.49,1.45921381
+Comprehensive,Car,Private,DFSK,Glory,2018,4300000,59700.73,1.38838907
+Comprehensive,Car,Private,Nissan,Sunny,1999,3375000,47483.99,1.406933037
+Comprehensive,Car,Private,Suzuki,Liana,2004,3200000,45172.61,1.411644063
+Comprehensive,Car,Private,Maruti Suzuki,Alto,2006,2375000,34276.52,1.443221895
+Comprehensive,Car,Private,Suzuki,Wagon R,2017,6000000,82153.73,1.369228833
+Comprehensive,Car,Private,Toyota,Carina,1991,1500000,22719.61,1.514640667
+Comprehensive,Car,Private,Toyota,Aqua,2013,6875000,93710.64,1.363063855
+Comprehensive,Car,Private,Mitsubishi,Lancer,1981,900000,14794.73,1.643858889
+Comprehensive,Car,Private,Kia,Sportage,2015,13300000,178569.97,1.342631353
+Comprehensive,Car,Private,Micro,Panda Cross,2012,2590000,37115.77,1.433041313
+Comprehensive,Car,Private,Audi,Q4,2024,46000000,610459.57,1.327086022
+Comprehensive,Car,Private,Mitsubishi,Montero,2003,14200000,190456.79,1.341245
+Comprehensive,Car,Private,Honda,CRV,2007,7950000,107908.85,1.357344025
+Comprehensive,Car,Private,Toyota,Prius,2011,2650000,37908.55,1.430511321
+Comprehensive,Car,Private,Kia,Sorento,2015,26300000,350269.09,1.331821635
+Comprehensive,Car,Private,Mahindra,KUV100,2024,6495000,88691.98,1.365542417
+Comprehensive,Car,Private,Mahindra,KUV100,2024,6495000,88691.98,1.365542417
+Comprehensive,Car,Private,Mahindra,KUV100,2024,6495000,88691.98,1.365542417
+Comprehensive,Car,Private,Nissan,X-Trail,2015,12500000,168003.79,1.34403032
+Comprehensive,Car,Private,Suzuki,Wagon R,2017,6095000,83408.4,1.368472518
+Comprehensive,Car,Private,Mazda,Familia,1993,1800000,26681.55,1.482308333
+Comprehensive,Car,Private,Toyota,Axio,2015,11700000,157437.62,1.345620684
+Comprehensive,Car,Private,Ford,Ranger,2018,28850000,383949.09,1.330846066
+Comprehensive,Car,Private,Toyota,Vitz,2007,6000000,82153.73,1.369228833
+Comprehensive,Car,Private,Toyota,Passo,2016,7790000,105795.41,1.358092555
+Comprehensive,Car,Private,Mercedes Benz,CLA 200,2019,30800000,409703.21,1.330205227
+Comprehensive,Car,Private,Nissan,X-Trail,2015,13300000,178569.97,1.342631353
+Comprehensive,Car,Private,Honda,Grace,2015,11000000,148192.09,1.347200818
+Comprehensive,Car,Private,Honda,Civic,2018,15900000,212909.79,1.339055283
+Comprehensive,Car,Private,Honda,Vezel,2014,10550000,142248.67,1.348328626
+Comprehensive,Car,Private,Suzuki,Swift,2017,9300000,125739.09,1.352033226
+Comprehensive,Car,Private,MG,MG4,2024,19950000,266400.5,1.335340852
+Comprehensive,Car,Private,Suzuki,Hustler,2016,6100000,83474.38,1.368432459
+Comprehensive,Car,Private,Honda,Insight,2018,19000000,253852.85,1.336067632
+Comprehensive,Car,Private,BMW,X5,2016,36290000,482213.84,1.328778837
+Comprehensive,Car,Private,BMW,E46,2000,5950000,81493.91,1.369645546
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2017,7130000,97078.74,1.361553156
+Comprehensive,Car,Private,Toyota,Premio,2014,14300000,191777.44,1.341100979
+Comprehensive,Car,Private,Toyota,Premio,2013,13000000,174607.03,1.343131
+Comprehensive,Car,Private,Honda,Vezel,2015,10850000,146210.62,1.347563318
+Comprehensive,Car,Private,Suzuki,Alto,2010,4275000,59370.82,1.388791111
+Comprehensive,Car,Private,Suzuki,Swift,2011,5485000,75351.55,1.37377484
+Comprehensive,Car,Private,Suzuki,Spacia,2015,5990000,82021.77,1.369311686
+Comprehensive,Car,Private,Toyota,Prius,2010,8350000,113191.44,1.355586108
+Comprehensive,Car,Private,Bajaj,Qute,2018,1150000,18096.85,1.57363913
+Comprehensive,Car,Private,Mitsubishi,Attrage,2015,7800000,105927.38,1.358043333
+Comprehensive,Car,Private,Toyota,Vitz,2019,9975000,134654.7,1.349921805
+Comprehensive,Car,Private,Micro,Panda,2013,2290000,33153.82,1.447765066
+Comprehensive,Car,Private,Suzuki,Swift,2017,9500000,128380.38,1.351372421
+Comprehensive,Car,Private,Maruti Suzuki,WagonR,2008,2950000,41870.49,1.419338644
+Comprehensive,Car,Private,Toyota,Vanguard,2013,13600000,182531.91,1.342146397
+Comprehensive,Car,Private,Honda,Grace,2016,10500000,141587.85,1.348455714
+Comprehensive,Car,Private,Mitsubishi,Lancer,1976,775000,13144.17,1.696021935
+Comprehensive,Car,Private,Honda,Grace,2014,10000000,134984.62,1.3498462
+Comprehensive,Car,Private,Toyota,Crown,2014,37500000,498194.57,1.328518853
+Comprehensive,Car,Private,Toyota,Land Cruiser Prado,1998,9500000,128380.38,1.351372421
+Comprehensive,Car,Private,Toyota,Allion,2013,12500000,168003.79,1.34403032
+Comprehensive,Car,Private,Honda,Vezel,2018,16850000,225456.44,1.338020415
+Comprehensive,Car,Private,Mitsubishi,Outlander,2014,15000000,201022.97,1.340153133
+Comprehensive,Car,Private,Mini,Cooper,1969,1745000,25954.75,1.487378223
+Comprehensive,Car,Private,Bajaj,Qute,2018,1225000,19087.58,1.558169796
+Comprehensive,Car,Private,Nissan,X-Trail,2001,4950000,68285.44,1.379503838
+Comprehensive,Car,Private,Toyota,Hilux,2007,13000000,174607.03,1.343131
+Comprehensive,Car,Private,Nissan,Sunny,1984,825000,13803.99,1.673210909
+Comprehensive,Car,Private,Nissan,Patrol,2013,43000000,570837.16,1.327528279
+Comprehensive,Car,Private,Nissan,AD Wagon,1989,2100000,30643.49,1.45921381
+Comprehensive,Car,Private,Toyota,IST,2003,5100000,70266.91,1.377782549
+Comprehensive,Car,Private,Suzuki,Celerio,2019,6650000,90738.44,1.36448782
+Comprehensive,Car,Private,Hyundai,Creta,2017,15500000,207626.21,1.339523935
+Comprehensive,Car,Private,Nissan,Sunny,1986,1445000,21992.81,1.521993772
+Comprehensive,Car,Private,Suzuki,Estilo,2010,3390000,47681.94,1.406546903
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2018,7350000,99983.97,1.360326122
+Comprehensive,Car,Private,Toyota,Toyota,2000,5200000,71587.55,1.376683654
+Comprehensive,Car,Private,Honda,CRV,2002,5800000,79512.44,1.370904138
+Comprehensive,Car,Private,Mercedes Benz,S500,2016,67500000,894424.7,1.32507363
+Comprehensive,Car,Private,Toyota,Vitz,2008,5775000,79182.53,1.371126061
+Comprehensive,Car,Private,Daihatsu,Mira,2016,5900000,80833.08,1.370052203
+Comprehensive,Car,Private,Tata,Nano,2012,920000,15058.66,1.63681087
+Comprehensive,Car,Private,Perodua,Viva Elite,2012,4675000,64653.41,1.382960642
+Comprehensive,Car,Private,Nissan,Wingroad,1997,2300000,33285.79,1.447208261
+Comprehensive,Car,Private,Toyota,Corolla,1995,1850000,27342.38,1.477966486
+Comprehensive,Car,Private,Toyota,Premio,2014,12750000,171305.91,1.343575765
+Comprehensive,Car,Private,Nissan,March,1999,2990000,42398.35,1.418005017
+Comprehensive,Car,Private,Chevrolet,Cruze,2004,3750000,52436.67,1.3983112
+Comprehensive,Car,Private,Suzuki,Alto,2008,2700000,38568.38,1.428458519
+Comprehensive,Car,Private,Honda,Fit,2015,8850000,119795.67,1.35362339
+Comprehensive,Car,Private,Toyota,Corolla,1990,1725000,25690.82,1.489322899
+Comprehensive,Car,Private,Nissan,Wingroad,1997,2290000,33153.82,1.447765066
+Comprehensive,Car,Private,Honda,Fit,2013,7275000,98993.23,1.360731684
+Comprehensive,Car,Private,Mitsubishi,Eclipse,2018,16500000,220833.68,1.338385939
+Comprehensive,Car,Private,Hyundai,Getz,2002,2975000,42200.41,1.418501176
+Comprehensive,Car,Private,Audi,Q4,2024,49900000,661969.81,1.326592806
+Comprehensive,Car,Private,Toyota,Axio,2016,12050000,162060.38,1.344899419
+Comprehensive,Car,Private,Suzuki,Maruti,2011,2075000,30313.58,1.460895422
+Comprehensive,Car,Private,Toyota,Vitz,2007,5150000,70927.73,1.377237476
+Comprehensive,Car,Private,Suzuki,Alto,2015,3350000,47153.08,1.407554627
+Comprehensive,Car,Private,Nissan,X-Trail,2003,8000000,108568.67,1.357108375
+Comprehensive,Car,Private,Toyota,Land Cruiser Prado,2010,33000000,438760.45,1.329577121
+Comprehensive,Car,Private,Toyota,Axio,2016,12000000,161399.56,1.344996333
+Comprehensive,Car,Private,Ssang Yong,Korando,2015,9500000,128380.38,1.351372421
+Comprehensive,Car,Private,Toyota,Vios,2003,4850000,66964.79,1.38071732
+Comprehensive,Car,Private,DFSK,Glory,2023,14700000,197060.03,1.340544422
+Comprehensive,Car,Private,Suzuki,Swift,2005,4400000,61021.38,1.386849545
+Comprehensive,Car,Private,BMW,523i,2006,12800000,171965.73,1.343482266
+Comprehensive,Car,Private,Peugeot,3008,2011,11500000,154796.32,1.346054957
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2015,5680000,77926.86,1.371951761
+Comprehensive,Car,Private,Tata,Nano,2016,1850000,27342.38,1.477966486
+Comprehensive,Car,Private,Toyota,Vitz,2010,5825000,79842.35,1.37068412
+Comprehensive,Car,Private,Mahindra,KUV100,2021,5350000,73569.02,1.375121869
+Comprehensive,Car,Private,Audi,A3,2017,14000000,187815.5,1.341539286
+Comprehensive,Car,Private,Mitsubishi,Montero,2001,15000000,201022.97,1.340153133
+Comprehensive,Car,Private,Mazda,Familia,2001,3750000,52436.67,1.3983112
+Comprehensive,Car,Private,Toyota,Aqua,2013,7250000,98663.32,1.360873379
+Comprehensive,Car,Private,Toyota,Axio,2015,9900000,133663.97,1.350141111
+Comprehensive,Car,Private,Toyota,Premio,2013,12600000,169324.44,1.343844762
+Comprehensive,Car,Private,Nissan,Dayz,2020,7490000,101833.47,1.35959239
+Comprehensive,Car,Private,Mercedes Benz,E250,2010,18750000,250551.74,1.336275947
+Comprehensive,Car,Private,Toyota,Corolla,2002,5500000,75549.5,1.373627273
+Comprehensive,Car,Private,Mercedes Benz,S400,2014,55000000,729328.81,1.326052382
+Comprehensive,Car,Private,Hyundai,Sonata,2001,2400000,34606.44,1.441935
+Comprehensive,Car,Private,Land Rover,Range Rover,2017,55000000,729328.81,1.326052382
+Comprehensive,Car,Private,Kia,Sportage,2013,12200000,164040.85,1.344597131
+Comprehensive,Car,Private,Chery,Tiggo,2014,6750000,92059.08,1.363838222
+Comprehensive,Car,Private,Micro,Trend,2009,1790008,26549.69,1.483216276
+Comprehensive,Car,Private,Toyota,Premio,2016,15500000,207626.21,1.339523935
+Comprehensive,Car,Private,Land Rover,Defender,1979,17500000,234042.15,1.337383714
+Comprehensive,Car,Private,Micro,BAIC,2018,5850000,80172.26,1.370465983
+Comprehensive,Car,Private,Kia,Sportage,2010,10300000,138946.56,1.348995728
+Comprehensive,Car,Private,Suzuki,Maruti,2004,1775000,26351.64,1.484599437
+Comprehensive,Car,Private,Honda,Fit,2013,7800000,105927.38,1.358043333
+Comprehensive,Car,Private,Suzuki,Hustler,2016,5950000,81493.91,1.369645546
+Comprehensive,Car,Private,Suzuki,Maruti,2008,2450000,35266.26,1.439439184
+Comprehensive,Car,Private,Audi,A8,2015,35000000,465175.39,1.329072543
+Comprehensive,Car,Private,Toyota,Prius,2011,9000000,121777.14,1.353079333
+Comprehensive,Car,Private,Toyota,Corolla,1999,2975000,42200.41,1.418501176
+Comprehensive,Car,Private,Toyota,Corolla,1997,3000000,42531.32,1.417710667
+Comprehensive,Car,Private,Suzuki,Wagon R,2014,5650000,77530.97,1.372229558
+Comprehensive,Car,Private,Toyota,Vitz,2018,9850000,133003.14,1.350285685
+Comprehensive,Car,Private,Toyota,Carina,2000,5750000,78851.61,1.371332348
+Comprehensive,Car,Private,Audi,A6,2015,18750000,250551.74,1.336275947
+Comprehensive,Car,Private,Toyota,Vitz,2018,9225000,124748.35,1.352285637
+Comprehensive,Car,Private,BMW,520d,2014,30000000,399137.04,1.3304568
+Comprehensive,Car,Private,Mitsubishi,Montero,2001,11500000,154796.32,1.346054957
+Comprehensive,Car,Private,Daihatsu,Terios,2008,6775000,92390,1.363690037
+Comprehensive,Car,Private,BMW,X5,2015,29000000,385929.56,1.330791586
+Comprehensive,Car,Private,Honda,Vezel,2018,18000000,240645.38,1.336918778
+Comprehensive,Car,Private,Suzuki,Swift,2011,4495000,62276.04,1.38545139
+Comprehensive,Car,Private,Kia,Stonic,2019,12950000,173947.2,1.343221622
+Comprehensive,Car,Private,Toyota,Corolla,1991,1600000,24040.26,1.50251625
+Comprehensive,Car,Private,Toyota,Vitz,2008,5700000,78191.79,1.371785789
+Comprehensive,Car,Private,Toyota,Corolla,1996,2350000,33945.61,1.444494043
+Comprehensive,Car,Private,Suzuki,Maruti,2011,1880000,27738.27,1.475439894
+Comprehensive,Car,Private,Toyota,Corolla,1983,690000,12021.47,1.742242029
+Comprehensive,Car,Private,Toyota,Aqua,2016,6895000,93974.57,1.362937926
+Comprehensive,Car,Private,Suzuki,Wagon R,2017,5850000,80172.26,1.370465983
+Comprehensive,Car,Private,Mazda,6,2015,14690000,196928.06,1.340558611
+Comprehensive,Car,Private,Micro,Panda Cross,2013,2860000,40681.81,1.422440909
+Comprehensive,Car,Private,Suzuki,Alto,2015,4200000,58380.08,1.390001905
+Comprehensive,Car,Private,Toyota,Starlet,1995,3150000,44511.79,1.413072698
+Comprehensive,Car,Private,Perodua,Viva Elite,2009,4200000,58380.08,1.390001905
+Comprehensive,Car,Private,DFSK,Glory,2023,11800000,158758.26,1.345408983
+Comprehensive,Car,Private,Toyota,Corolla,1986,1175000,18426.76,1.568234894
+Comprehensive,Car,Private,Toyota,Hilux,2008,14000000,187815.5,1.341539286
+Comprehensive,Car,Private,Toyota,Carina,2000,5690000,78059.83,1.371877504
+Comprehensive,Car,Private,Peugeot,3008,2020,24500000,326495.44,1.332634449
+Comprehensive,Car,Private,Suzuki,Swift,2017,9150000,123757.61,1.352542186
+Comprehensive,Car,Private,Toyota,CHR,2019,18100000,241966.03,1.336828895
+Comprehensive,Car,Private,Toyota,Land Cruiser Prado,2002,14999000,201009.77,1.340154477
+Comprehensive,Car,Private,Toyota,Corolla,2010,7450000,101304.61,1.359793423
+Comprehensive,Car,Private,Mitsubishi,Montero,2011,16500000,220833.68,1.338385939
+Comprehensive,Car,Private,Suzuki,Wagon R,2018,6625000,90408.53,1.364657057
+Comprehensive,Car,Private,Toyota,Premio,2013,14600000,195739.38,1.340680685
+Comprehensive,Car,Private,Honda,Fit,2014,8440000,114380.12,1.355214692
+Comprehensive,Car,Private,Hyundai,Santa,2001,4250000,59039.91,1.389174353
+Comprehensive,Car,Private,Honda,Accord,2003,4500000,62342.02,1.385378222
+Comprehensive,Car,Private,Suzuki,Alto,2006,2465000,35465.21,1.438750913
+Comprehensive,Car,Private,Nissan,Sunny,1996,2500000,35927.08,1.4370832
+Comprehensive,Car,Private,Suzuki,Wagon R,2004,2450000,35266.26,1.439439184
+Comprehensive,Car,Private,Bajaj,Qute,2019,1100000,17436.02,1.585092727
+Comprehensive,Car,Private,Land Rover,Discovery Sport,2018,35750000,475081.74,1.328899972
+Comprehensive,Car,Private,Toyota,Hilux,1989,4500000,62342.02,1.385378222
+Comprehensive,Car,Private,Suzuki,Alto,2007,2250000,32624.96,1.449998222
+Comprehensive,Car,Private,Toyota,Allion,2013,15475000,207296.29,1.339555994
+Comprehensive,Car,Private,BYD,Seal,2024,38950000,517346.45,1.328232221
+Comprehensive,Car,Private,Honda,Vezel,2017,14750000,197720.85,1.340480339
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2015,5590000,76738.18,1.372776029
+Comprehensive,Car,Private,Nissan,Wingroad,2001,2690000,38436.41,1.428862825
+Comprehensive,Car,Private,Opel,Corsa,1998,1500000,22719.61,1.514640667
+Comprehensive,Car,Private,Maruti Suzuki,Esteem,1995,1000000,16115.38,1.611538
+Comprehensive,Car,Private,Micro,Panda,2011,2000000,29322.85,1.4661425
+Comprehensive,Car,Private,Lexus,RX350,2004,7900000,107248.03,1.35757
+Comprehensive,Car,Private,Toyota,Axio,2013,9575000,129371.11,1.351134308
+Comprehensive,Car,Private,Toyota,Allion,2009,9800000,132343.32,1.350442041
+Comprehensive,Car,Private,MG,MG4,2024,19200000,256495.15,1.33591224
+Comprehensive,Car,Private,Mercedes Benz,CLK 240,2002,12950000,173947.2,1.343221622
+Comprehensive,Car,Private,Hyundai,Tucson,2012,9200000,124418.44,1.352374348
+Comprehensive,Car,Private,Toyota,Vitz,2018,9500000,128380.38,1.351372421
+Comprehensive,Car,Private,Toyota,Aqua,2015,9400000,127059.73,1.351699255
+Comprehensive,Car,Private,Isuzu,Gemini,1992,1025000,16445.29,1.604418537
+Comprehensive,Car,Private,Volkswagen,Tiguan,2014,15000000,201022.97,1.340153133
+Comprehensive,Car,Private,Land Rover,Range Rover,2013,19000000,253852.85,1.336067632
+Comprehensive,Car,Private,DFSK,Glory,2021,99000000,1310465.53,1.323702556
+Comprehensive,Car,Private,Honda,N-Box,2018,8950000,121116.32,1.353254972
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2015,5675000,77860.88,1.371997885
+Comprehensive,Car,Private,Toyota,Belta,2010,7500000,101965.44,1.3595392
+Comprehensive,Car,Private,Nissan,Patrol,2013,43000000,570837.16,1.327528279
+Comprehensive,Car,Private,Toyota,Vitz,2017,7850000,106588.2,1.357811465
+Comprehensive,Car,Private,Suzuki,Estilo,2011,3300000,46493.26,1.408886667
+Comprehensive,Car,Private,Renault,KWID,2018,3625000,50786.11,1.400996138
+Comprehensive,Car,Private,Bajaj,Qute,2019,1375000,21068.05,1.532221818
+Comprehensive,Car,Private,Honda,CRV,2018,24000000,319891.21,1.332880042
+Comprehensive,Car,Private,Honda,Fit,2012,6400000,87437.32,1.366208125
+Comprehensive,Car,Private,Suzuki,Celerio,2014,4750000,65644.14,1.381981895
+Comprehensive,Car,Private,Renault,KWID,2016,3150000,44511.79,1.413072698
+Comprehensive,Car,Private,Toyota,Aqua,2012,6875000,93710.64,1.363063855
+Comprehensive,Car,Private,Perodua,Viva Elite,2011,4550000,63002.85,1.384678022
+Comprehensive,Car,Private,Toyota,Carina,1999,4500000,62342.02,1.385378222
+Comprehensive,Car,Private,Micro,Trend,2011,1775000,26351.64,1.484599437
+Comprehensive,Car,Private,Suzuki,Wagon R,2017,3800000,53096.49,1.397276053
+Comprehensive,Car,Private,Toyota,FJ Cruiser,2014,36000000,478383.86,1.328844056
+Comprehensive,Car,Private,Honda,Fit Shuttle,2014,9300000,125739.09,1.352033226
+Comprehensive,Car,Private,Mitsubishi,Montero,2001,10500000,141587.85,1.348455714
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2018,7175000,97672.58,1.361290314
+Comprehensive,Car,Private,Toyota,Starlet,1998,2950000,41870.49,1.419338644
+Comprehensive,Car,Private,Micro,Kyron,2008,5200000,71587.55,1.376683654
+Comprehensive,Car,Private,Toyota,Passo,2018,7890000,107116.06,1.357617997
+Comprehensive,Car,Private,Toyota,Aqua,2015,8950000,121116.32,1.353254972
+Comprehensive,Car,Private,Toyota,Aqua,2012,7650000,103946.91,1.358783137
+Comprehensive,Car,Private,Suzuki,Wagon R,2017,6590000,89946.65,1.364896055
+Comprehensive,Car,Private,Toyota,Passo,2007,4575000,63332.76,1.384322623
+Comprehensive,Car,Private,Perodua,Viva Elite,2014,4750000,65644.14,1.381981895
+Comprehensive,Car,Private,Perodua,Viva Elite,2012,4675000,64653.41,1.382960642
+Comprehensive,Car,Private,Daihatsu,Mira,2012,5290000,72776.24,1.375732325
+Comprehensive,Car,Private,Toyota,Soluna,2000,3175000,44841.7,1.412337008
+Comprehensive,Car,Private,Toyota,Carina,1999,4125000,57389.35,1.39125697
+Comprehensive,Car,Private,Toyota,IST,2002,5150000,70927.73,1.377237476
+Comprehensive,Car,Private,DFSK,Glory,2021,9965000,134521.74,1.349942198
+Comprehensive,Car,Private,Honda,N-Box,2015,6990000,95229.24,1.362363948
+Comprehensive,Car,Private,Toyota,Hilux,2011,12900000,173286.38,1.343305271
+Comprehensive,Car,Private,Toyota,Land Cruiser Prado,1986,7990000,108436.71,1.357155319
+Comprehensive,Car,Private,Toyota,Axio,2015,11600000,156116.97,1.345835948
+Comprehensive,Car,Private,DFSK,Glory,2016,4475000,62012.11,1.385745475
+Comprehensive,Car,Private,Toyota,Carina,1991,1290000,19945.35,1.546151163
+Comprehensive,Car,Private,Mercedes Benz,EQE 300,2024,79500000,1052916.35,1.324423082
+Comprehensive,Car,Private,Mercedes Benz,EQE 300,2024,80000000,1059520.59,1.324400738
+Comprehensive,Car,Private,Mercedes Benz,E220,2013,23850000,317910.74,1.332959078
+Comprehensive,Car,Private,Mercedes Benz,CLA45,2017,38500000,511403.04,1.328319584
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2018,7500000,101965.44,1.3595392
+Comprehensive,Car,Private,DFSK,580 SUV,2020,9200000,124418.44,1.352374348
+Comprehensive,Car,Private,Nissan,Patrol,1992,8750000,118475.03,1.354000343
+Comprehensive,Car,Private,Mazda,MR90,1995,1250000,19417.49,1.5533992
+Comprehensive,Car,Private,Morris,Minor,1953,550000,10171.96,1.849447273
+Comprehensive,Car,Private,Suzuki,Maruti,2011,1875000,27672.29,1.475855467
+Comprehensive,Car,Private,Suzuki,Alto,2015,3290000,46361.29,1.409157751
+Comprehensive,Car,Private,Toyota,Verossa,2001,5975000,81823.82,1.369436318
+Comprehensive,Car,Private,Toyota,Allion,2012,11600000,156116.97,1.345835948
+Comprehensive,Car,Private,Ford,Fiesta,2015,6200000,84795.03,1.367661774
+Comprehensive,Car,Private,Suzuki,Swift,2013,6690000,91267.3,1.364234679
+Comprehensive,Car,Private,Mitsubishi,eK Wagon,2015,5950000,81493.91,1.369645546
+Comprehensive,Car,Private,Suzuki,Wagon R,2014,5675000,77860.88,1.371997885
+Comprehensive,Car,Private,Volkswagen,Polo,2016,9200000,124418.44,1.352374348
+Comprehensive,Car,Private,Nissan,X-Trail,2012,12450000,167342.97,1.344120241
+Comprehensive,Car,Private,Toyota,Carina,1987,825000,13803.99,1.673210909
+Comprehensive,Car,Private,Honda,Civic,1997,3450000,48474.73,1.405064638
+Comprehensive,Car,Private,Honda,Insight,2011,7400000,100644.79,1.36006473
+Comprehensive,Car,Private,Toyota,Vitz,2019,9700000,131021.67,1.350738866
+Comprehensive,Car,Private,Chery,QQ,2007,1390000,21267,1.53
+Comprehensive,Car,Private,Suzuki,Alto,2015,3225000,45502.52,1.410930853
+Comprehensive,Car,Private,Mitsubishi,Montero,2013,35500000,471779.63,1.328956704
+Comprehensive,Car,Private,Micro,MX 7,2013,2600000,37247.73,1.432605
+Comprehensive,Car,Private,Toyota,Axio,2007,7975000,108238.76,1.357225831
+Comprehensive,Car,Private,Suzuki,SX4,2007,5100000,70266.91,1.377782549
+Comprehensive,Car,Private,Toyota,Avanza,2010,6700000,91399.26,1.36416806
+Comprehensive,Car,Private,Suzuki,Ignis,2016,7190000,97870.53,1.361203477
+Comprehensive,Car,Private,Nissan,Qashqai,2018,15800000,211589.15,1.339171835
+Comprehensive,Car,Private,Mahindra,KUV100,2024,6495000,88691.98,1.365542417
+Comprehensive,Car,Private,Honda,CRV,2002,5500000,75549.5,1.373627273
+Comprehensive,Car,Private,Toyota,Vitz,2008,5600000,76871.14,1.372698929
+Comprehensive,Car,Private,Land Rover,Range Rover Velar,2018,63500000,841593.81,1.325344583
+Comprehensive,Car,Private,Honda,Honda,2018,18450000,246588.8,1.336524661
+Comprehensive,Car,Private,Suzuki,Maruti,2000,1225000,19087.58,1.558169796
+Comprehensive,Car,Private,Hyundai,Tucson,2011,7150000,97342.67,1.361435944
+Comprehensive,Car,Private,Nissan,Sunny,1990,1350000,20738.14,1.536158519
+Comprehensive,Car,Private,Morris,Mini,1960,2200000,31965.14,1.452960909
+Comprehensive,Car,Private,Nissan,X-Trail,2015,13000000,174607.03,1.343131
+Comprehensive,Car,Private,Toyota,Premio,2013,12600000,169324.44,1.343844762
+Comprehensive,Car,Private,Mitsubishi,Eclipse Cross,2019,21000000,280268.8,1.334613333
+Comprehensive,Car,Private,Mitsubishi,Montero,2015,36500000,484987.1,1.328731781
+Comprehensive,Car,Private,Suzuki,Alto,2015,3225000,45502.52,1.410930853
+Comprehensive,Car,Private,DFSK,Glory,2021,12900000,173286.38,1.343305271
+Comprehensive,Car,Private,DFSK,Glory,2021,9600000,129701.03,1.351052396
+Comprehensive,Car,Private,Nissan,Sunny,1999,2850000,40549.85,1.422801754
+Comprehensive,Car,Private,Honda,S660,2016,7400000,100644.79,1.36006473
+Comprehensive,Car,Private,Perodua,Axia,2016,5850000,80172.26,1.370465983
+Comprehensive,Car,Private,Kia,Rio,2002,2250000,32624.96,1.449998222
+Comprehensive,Car,Private,Suzuki,Wagon R,2018,6090000,83342.41,1.368512479
+Comprehensive,Car,Private,Mitsubishi,Eclipse Cross,2020,24000000,319891.21,1.332880042
+Comprehensive,Car,Private,Toyota,Harrier,2017,31000000,412345.51,1.330146806
+Comprehensive,Car,Private,Nissan,Sunny,1997,2685000,38370.43,1.429066294
+Comprehensive,Car,Private,Maruti Suzuki,Alto,2012,2800000,39889.02,1.424607857
+Comprehensive,Car,Private,Peugeot,5008,2018,21000000,280268.8,1.334613333
+Comprehensive,Car,Private,Toyota,Vitz,2018,10100000,136305.26,1.34955703
+Comprehensive,Car,Private,Honda,Fit Shuttle,2012,7950000,107908.85,1.357344025
+Comprehensive,Car,Private,Toyota,Corolla,2000,3150000,44511.79,1.413072698
+Comprehensive,Car,Private,Maruti Suzuki,800,2004,1600000,24040.26,1.50251625
+Comprehensive,Car,Private,Nissan,Sunny,1980,600000,10832.79,1.805465
+Comprehensive,Car,Private,Mitsubishi,L200,2014,15650000,209607.68,1.339346198
+Comprehensive,Car,Private,Nissan,X-Trail,2010,10250000,138286.73,1.349138829
+Comprehensive,Car,Private,BMW,520d,2006,11800000,158758.26,1.345408983
+Comprehensive,Car,Private,Renault,KWID,2016,3375000,47483.99,1.406933037
+Comprehensive,Car,Private,Peugeot,5008,2018,23590000,314476.66,1.33309309
+Comprehensive,Car,Private,Toyota,Hilux,2018,27000000,359514.62,1.33153563
+Comprehensive,Car,Private,Toyota,Raize,2019,15950000,213569.62,1.338994483
+Comprehensive,Car,Private,Mercedes Benz,SLK 200,2015,21000000,280268.8,1.334613333
+Comprehensive,Car,Private,DFSK,Glory,2020,5200000,71587.55,1.376683654
+Comprehensive,Car,Private,Honda,Fit Shuttle,2011,9500000,128380.38,1.351372421
+Comprehensive,Car,Private,Honda,Vezel,2014,9600000,129701.03,1.351052396
+Comprehensive,Car,Private,Toyota,Vitz,2015,7500000,101965.44,1.3595392
+Comprehensive,Car,Private,Nissan,Navara,1987,1275000,19747.41,1.548816471
+Comprehensive,Car,Private,Toyota,Aqua,2013,8000000,108568.67,1.357108375
+Comprehensive,Car,Private,Mazda,CX-5,2014,14000000,187815.5,1.341539286
+Comprehensive,Car,Private,Nissan,Sunny,1984,790000,13342.12,1.688875949
+Comprehensive,Car,Private,Toyota,Hilux,2019,8200000,111210.97,1.356231341
+Comprehensive,Car,Private,Honda,Civic,1987,900000,14794.73,1.643858889
+Comprehensive,Car,Private,Nissan,Presea,1996,2680000,38304.45,1.429270522
+Comprehensive,Car,Private,Honda,CRV,2019,24900000,331778.03,1.332441888
+Comprehensive,Car,Private,Toyota,Tank,2017,9750000,131682.5,1.350589744
+Comprehensive,Car,Private,Toyota,Axio,2015,10750000,144889.97,1.347813674
+Comprehensive,Car,Private,Toyota,CHR,2018,18000000,240645.38,1.336918778
+Comprehensive,Car,Private,Micro,Rexton,2009,7500000,101965.44,1.3595392
+Comprehensive,Car,Private,Honda,Vezel,2014,9850000,133003.14,1.350285685
+Comprehensive,Car,Private,Volkswagen,Golf,1989,1200000,18756.67,1.563055833
+Comprehensive,Car,Private,Toyota,Passo,2016,7590000,103154.12,1.359079315
+Comprehensive,Car,Private,Suzuki,Hustler,2017,6325000,86446.58,1.366744348
+Comprehensive,Car,Private,Peugeot,406,1999,2275000,32954.88,1.448566154
+Comprehensive,Car,Private,Mitsubishi,Lancer,1991,1250000,19417.49,1.5533992
+Comprehensive,Car,Private,Nissan,March,2000,2950000,41870.49,1.419338644
+Comprehensive,Car,Private,Micro,Kyron,2008,5500000,75549.5,1.373627273
+Comprehensive,Car,Private,Perodua,Kenari,2008,3200000,45172.61,1.411644063
+Comprehensive,Car,Private,Mitsubishi,Pajero,1991,8525000,115502.82,1.354871789
+Comprehensive,Car,Private,DFSK,Glory,2021,9790000,132210.36,1.35046333
+Comprehensive,Car,Private,DFSK,Glory,2021,11990000,161267.59,1.345017431
+Comprehensive,Car,Private,Suzuki,Spacia,2016,6550000,89417.79,1.365157099
+Comprehensive,Car,Private,Micro,X25,2019,6850000,93380.73,1.363222336
+Comprehensive,Car,Private,Suzuki,Celerio,2015,4875000,67294.7,1.380404103
+Comprehensive,Car,Private,Audi,A4,2024,62250000,825084.22,1.325436498
+Comprehensive,Car,Private,Mercedes Benz,CLA 200,2019,27450000,365458.03,1.331358944
+Comprehensive,Car,Private,Mitsubishi,RVR,2000,3650000,51116.02,1.400438904
+Comprehensive,Car,Private,Nissan,March,2002,3625000,50786.11,1.400996138
+Comprehensive,Car,Private,Toyota,Vitz,2016,7975000,108238.76,1.357225831
+Comprehensive,Car,Private,Nissan,Sunny,1991,2100000,30643.49,1.45921381
+Comprehensive,Car,Private,Suzuki,Vitara,1994,3000000,42531.32,1.417710667
+Comprehensive,Car,Private,Tesla,Model 3,2024,41000000,544421.22,1.327856634
+Comprehensive,Car,Private,Chevrolet,Aveo,2008,2850000,40549.85,1.422801754
+Comprehensive,Car,Private,BMW,X3,2015,27000000,359514.62,1.33153563
+Comprehensive,Car,Private,Toyota,Hilux,2004,5500000,75549.5,1.373627273
+Comprehensive,Car,Private,Perodua,Axia,2017,6290000,85983.71,1.36699062
+Comprehensive,Car,Private,Suzuki,A-Star,2012,4275000,59370.82,1.388791111
+Comprehensive,Car,Private,Suzuki,Wagon R,2018,6790000,92587.94,1.363592636
+Comprehensive,Car,Private,Honda,Civic,1998,3575000,50125.29,1.402106014
+Comprehensive,Car,Private,Suzuki,Alto,2015,3325000,46823.17,1.408215639
+Comprehensive,Car,Private,Suzuki,Celerio,2016,4975000,68616.35,1.379223116
+Comprehensive,Car,Private,Toyota,Premio,2014,13500000,181211.26,1.34230563
+Comprehensive,Car,Private,Honda,Vezel,2016,13750000,184513.38,1.341915491
+Comprehensive,Car,Private,Kia,Sportage,2007,5500000,75549.5,1.373627273
+Comprehensive,Car,Private,Hyundai,Accent,2007,3450000,48474.73,1.405064638
+Comprehensive,Car,Private,Suzuki,Swift,2004,4100000,57059.44,1.391693659
+Comprehensive,Car,Private,Toyota,Aqua,2014,7250000,98663.32,1.360873379
+Comprehensive,Car,Private,Toyota,Carina,1971,295000,6803.86,2.30639322
+Comprehensive,Car,Private,Mercedes Benz,C180,2014,21000000,280268.8,1.334613333
+Comprehensive,Car,Private,Mitsubishi,Montero,2012,17500000,234042.15,1.337383714
+Comprehensive,Car,Private,Suzuki,Grand Vitara,2007,7790000,105795.41,1.358092555
+Comprehensive,Car,Private,Mini,Cooper,2002,6500000,88757.97,1.365507231
+Comprehensive,Car,Private,Honda,Fit Shuttle,2011,7800000,105927.38,1.358043333
+Comprehensive,Car,Private,Toyota,Land Cruiser Sahara,2011,64500000,854801.28,1.325273302
+Comprehensive,Car,Private,Toyota,Vitz,2008,6790000,92587.94,1.363592636
+Comprehensive,Car,Private,Toyota,Hilux,2007,13800000,185173.2,1.341834783
+Comprehensive,Car,Private,Toyota,Vitz,2011,6290000,85983.71,1.36699062
+Comprehensive,Car,Private,Nissan,Sunny,1995,2700000,38568.38,1.428458519
+Comprehensive,Car,Private,Toyota,Corolla,1984,720000,12417.36,1.724633333
+Comprehensive,Car,Private,Nissan,March,2000,2575000,36917.82,1.433701748
+Comprehensive,Car,Private,Mazda,Demio,1997,2575000,36917.82,1.433701748
+Comprehensive,Car,Private,Audi,A4,2011,11000000,148192.09,1.347200818
+Comprehensive,Car,Private,Mercedes Benz,C200,2019,35000000,465175.39,1.329072543
+Comprehensive,Car,Private,Mazda,Axela,2011,5500000,75549.5,1.373627273
+Comprehensive,Car,Private,Nissan,Leaf,2012,6650000,90738.44,1.36448782
+Comprehensive,Car,Private,Toyota,Sienta,2016,14900000,199702.32,1.340284027
+Comprehensive,Car,Private,Honda,Civic,2008,7190000,97870.53,1.361203477
+Comprehensive,Car,Private,Nissan,Dayz,2015,5475000,75219.58,1.373873607
+Comprehensive,Car,Private,Mitsubishi,Montero,2009,19900000,265740.68,1.335380302
+Comprehensive,Car,Private,Suzuki,Wagon R,2017,5790000,79380.47,1.370992573
+Comprehensive,Car,Private,Daihatsu,Mira,2015,5475000,75219.58,1.373873607
+Comprehensive,Car,Private,Audi,A3,2015,20000000,267061.33,1.33530665
+Comprehensive,Car,Private,Micro,Panda Cross,2014,2850000,40549.85,1.422801754
+Comprehensive,Car,Private,Mitsubishi,Eclipse Cross,2019,20500000,273664.56,1.334949073
+Comprehensive,Car,Private,Zotye,Z100,2019,3250000,45832.44,1.410228923
+Comprehensive,Car,Private,Nissan,Sunny,2001,3350000,47153.08,1.407554627
+Comprehensive,Car,Private,Suzuki,Swift,2007,5400000,74228.85,1.374608333
+Comprehensive,Car,Private,Toyota,Corolla,1988,1250000,19417.49,1.5533992
+Comprehensive,Car,Private,Mitsubishi,Lancer,1981,700000,12153.43,1.736204286
+Comprehensive,Car,Private,Nissan,Sunny,1991,1800000,26681.55,1.482308333
+Comprehensive,Car,Private,Toyota,Aqua,2013,8000000,108568.67,1.357108375
+Comprehensive,Car,Private,Perodua,Kenari,2008,3000000,42531.32,1.417710667
+Comprehensive,Car,Private,BMW,i7,2024,145000000,1918018.2,1.322771172
+Comprehensive,Car,Private,Suzuki,Wagon R,2017,6480000,88493.04,1.365633333
+Comprehensive,Car,Private,Proton,Wira,2001,1900000,28002.2,1.4738
+Comprehensive,Car,Private,Honda,City,2019,16500000,220833.68,1.338385939
+Comprehensive,Car,Private,Datsun,Redi Go,2018,3300000,46493.26,1.408886667
+Comprehensive,Car,Private,Micro,Glory,2016,3650000,51116.02,1.400438904
+Comprehensive,Car,Private,Toyota,Tercel,1997,3000000,42531.32,1.417710667
+Comprehensive,Car,Private,Mercedes Benz,EQS 450,2023,145000000,1918018.2,1.322771172
+Comprehensive,Car,Private,Nissan,Presea,1999,1700000,25360.91,1.491818235
+Comprehensive,Car,Private,Toyota,Yaris,2012,8250000,111870.79,1.356009576
+Comprehensive,Car,Private,Volkswagen,ID-4 STYLISH,2024,37500000,498194.57,1.328518853
+Comprehensive,Car,Private,Nissan,Sunny,2000,3700000,51775.85,1.399347297
+Comprehensive,Car,Private,Toyota,Corolla,2000,5700000,78191.79,1.371785789
+Comprehensive,Car,Private,Suzuki,SX4,2010,6190000,84663.06,1.367739257
+Comprehensive,Car,Private,Suzuki,Swift,2006,4390000,60889.41,1.387002506
+Comprehensive,Car,Private,Honda,Vezel,2016,13690000,183720.59,1.342005771
+Comprehensive,Car,Private,Honda,Fit,2011,6890000,93908.59,1.362969376
+Comprehensive,Car,Private,Maruti Suzuki,800,2008,1775000,26351.64,1.484599437
+Comprehensive,Car,Private,Perodua,Viva Elite,2010,4290000,59568.77,1.388549417
+Comprehensive,Car,Private,Toyota,Hilux,1988,6000000,82153.73,1.369228833
+Comprehensive,Car,Private,Toyota,Aqua,2012,7200000,98002.5,1.361145833
+Comprehensive,Car,Private,Micro,Panda,2015,1375000,21068.05,1.532221818
+Comprehensive,Car,Private,Mazda,Familia,1988,830000,13869.98,1.671081928
+Comprehensive,Car,Private,Suzuki,Alto,2016,6050000,82814.55,1.368835537
+Comprehensive,Car,Private,Ssang Yong,Kyron,2008,5290000,72776.24,1.375732325
+Comprehensive,Car,Private,Toyota,Vitz,2016,8050000,109229.5,1.356888199
+Comprehensive,Car,Private,Land Rover,Defender,2009,20800000,277627.5,1.334747596
+Comprehensive,Car,Private,Nissan,X-Trail,2014,13000000,174607.03,1.343131
+Comprehensive,Car,Private,Toyota,Hilux,2008,10350000,139607.38,1.348863575
+Comprehensive,Car,Private,Toyota,Vitz,2018,9290000,125607.12,1.35206803
+Comprehensive,Car,Private,Maruti Suzuki,800,2005,1625000,24370.17,1.499702769
+Comprehensive,Car,Private,Tata,Indica,2014,2275000,32954.88,1.448566154
+Comprehensive,Car,Private,Audi,A4,2018,32000000,425552.98,1.329853063
+Comprehensive,Car,Private,Suzuki,Maruti,2012,2075000,30313.58,1.460895422
+Comprehensive,Car,Private,Toyota,Prius,2013,10100000,136305.26,1.34955703
+Comprehensive,Car,Private,Micro,Panda,2015,2400000,34606.44,1.441935
+Comprehensive,Car,Private,BMW,318i,2017,23800000,317249.91,1.332982815
+Comprehensive,Car,Private,Nissan,Sunny,1989,1250000,19417.49,1.5533992
+Comprehensive,Car,Private,Honda,S660,2015,6590000,89946.65,1.364896055
+Comprehensive,Car,Private,Honda,Fit,2014,9075000,122766.88,1.352803085
+Comprehensive,Car,Private,Suzuki,Wagon R Stingray,2018,7800000,105927.38,1.358043333
+Comprehensive,Car,Private,Suzuki,Wagon R,2017,5600000,76871.14,1.372698929
+Comprehensive,Car,Private,Kia,Sorento,2010,16000000,214230.44,1.33894025
+Comprehensive,Car,Private,Micro,Panda,2014,2475000,35597.17,1.438269495
+Comprehensive,Car,Private,DFSK,Glory,2020,5150000,70927.73,1.377237476
+Comprehensive,Car,Private,Honda,Fit,2015,9000000,121777.14,1.353079333
+Comprehensive,Car,Private,Mitsubishi,Lancer,1975,750000,12813.26,1.708434667
+Comprehensive,Car,Private,Toyota,Passo,2008,5100000,70266.91,1.377782549
+Comprehensive,Car,Private,Micro,MX 7,2013,2475000,35597.17,1.438269495
+Comprehensive,Car,Private,Audi,A4,2010,10700000,144230.14,1.347945234
+Comprehensive,Car,Private,Daihatsu,Mira,2018,6150000,84135.2,1.368052033
+Comprehensive,Car,Private,Mitsubishi,Outlander,2014,21900000,292155.62,1.334043927
+Comprehensive,Car,Private,Honda,CRV,2015,16500000,220833.68,1.338385939
+Comprehensive,Car,Private,Toyota,Axio,2014,9800000,132343.32,1.350442041
+Comprehensive,Car,Private,Suzuki,Alto,2011,2650000,37908.55,1.430511321
+Comprehensive,Car,Private,Suzuki,Celerio,2015,4925000,67955.52,1.379807513
+Comprehensive,Car,Private,Toyota,Hilux,2009,7400000,100644.79,1.36006473
+Comprehensive,Car,Private,Toyota,Camry,1992,1550000,23379.44,1.508350968
+Comprehensive,Car,Private,Toyota,Axio,2015,12500000,168003.79,1.34403032
+Comprehensive,Car,Private,Toyota,Axio,2015,12300000,165362.5,1.344410569
+Comprehensive,Car,Private,Mitsubishi,L200,2007,8850000,119795.67,1.35362339
+Comprehensive,Car,Private,Mitsubishi,Pajero,2000,4450000,61682.2,1.386116854
+Comprehensive,Car,Private,Suzuki,Swift,2008,5450000,74889.67,1.374122385
+Comprehensive,Car,Private,Toyota,Vitz,2010,5900000,80833.08,1.370052203
+Comprehensive,Car,Private,Suzuki,Wagon R,2017,6990000,95229.24,1.362363948
+Comprehensive,Car,Private,Toyota,IST,2007,7090000,96549.88,1.361775458
+Comprehensive,Car,Private,Mahindra,KUV100,2020,5290000,72776.24,1.375732325
+Comprehensive,Car,Private,Proton,Saga,2009,3250000,45832.44,1.410228923
+Comprehensive,Car,Private,Suzuki,Swift,2003,4190000,58248.12,1.390169928
+Comprehensive,Car,Private,Mahindra,KUV100,2021,5395000,74162.87,1.374659314
+Comprehensive,Car,Private,Honda,Insight,2012,8500000,115172.91,1.354975412
+Comprehensive,Car,Private,Toyota,Aqua,2014,6800000,92719.91,1.363528088
+Comprehensive,Car,Private,Toyota,Vitz,2007,5475000,75219.58,1.373873607
+Comprehensive,Car,Private,Peugeot,405,1996,1200000,18756.67,1.563055833
+Comprehensive,Car,Private,Toyota,Vitz,2018,9600000,129701.03,1.351052396
+Comprehensive,Car,Private,Mitsubishi,Montero,2014,38000000,504798.8,1.328417895
+Comprehensive,Car,Private,Volvo,XC90,2017,46000000,610459.57,1.327086022
+Comprehensive,Car,Private,Toyota,Axio,2018,15750000,210928.32,1.339227429
+Comprehensive,Car,Private,Toyota,Premio,2017,19690000,262966.42,1.335532859
+Comprehensive,Car,Private,Mini,Countryman,2013,16900000,226117.27,1.337972012
+Comprehensive,Car,Private,Suzuki,Swift,2007,5550000,76210.32,1.373158919
+Comprehensive,Car,Private,Nissan,Pulsar,2003,2950000,41870.49,1.419338644
+Comprehensive,Car,Private,Honda,Vezel,2017,14350000,192437.26,1.341026202
+Comprehensive,Car,Private,Suzuki,Alto,2010,2475000,35597.17,1.438269495
+Comprehensive,Car,Private,Suzuki,Alto,2011,2690000,38436.41,1.428862825
+Comprehensive,Car,Private,Toyota,Soluna,2000,3225000,45502.52,1.410930853
+Comprehensive,Car,Private,MG,ZS,2019,9890000,133532,1.350171891
+Comprehensive,Car,Private,Toyota,Tank,2018,8875000,120125.59,1.353527775
+Comprehensive,Car,Private,Hyundai,Tucson,2011,8450000,114512.09,1.355172663
+Comprehensive,Car,Private,Toyota,Vitz,2010,6150000,84135.2,1.368052033
+Comprehensive,Car,Private,Honda,Vezel,2017,15100000,202343.62,1.340023974
+Comprehensive,Car,Private,Toyota,Axio,2020,14300000,191777.44,1.341100979
+Comprehensive,Car,Private,Suzuki,Celerio,2015,4250000,59039.91,1.389174353
+Comprehensive,Car,Private,Suzuki,Alto,2011,2975000,42200.41,1.418501176
+Comprehensive,Car,Private,Kia,Sorento,2012,14000000,187815.5,1.341539286
+Comprehensive,Car,Private,Nissan,Wingroad,1999,2590000,37115.77,1.433041313
+Comprehensive,Car,Private,Micro,Panda,2015,2590000,37115.77,1.433041313
+Comprehensive,Car,Private,Honda,Vezel,2014,10650000,143569.32,1.348068732
+Comprehensive,Car,Private,Honda,Vezel,2014,10650000,143569.32,1.348068732
+Comprehensive,Car,Private,Toyota,Prius,2014,11475000,154465.41,1.346103791
+Comprehensive,Car,Private,Mitsubishi,Outlander,2013,12750000,171305.91,1.343575765
+Comprehensive,Car,Private,Toyota,Estima,2002,7250000,98663.32,1.360873379
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,730000,16340.11,2.238371233
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1295000,27888.83,2.153577606
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,1025000,22369.97,2.182436098
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1996,360000,8777.23,2.438119444
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1110000,24107.39,2.171836937
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,455000,10719.05,2.355835165
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,600000,13682.88,2.28048
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2017,1365000,29319.65,2.147959707
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,300000,7550.81,2.516936667
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,100000,3462.77,3.46277
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1265000,27275.62,2.156175494
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,590000,13478.48,2.284488136
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,560000,12865.27,2.297369643
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,100000,3462.77,3.46277
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1110000,24107.39,2.171836937
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,145000,4382.58,3.022468966
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1185000,25640.41,2.163747679
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1145000,24822.8,2.167930131
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1190000,25742.61,2.163244538
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,530000,12252.06,2.311709434
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2017,1350000,29013.04,2.149114074
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1270000,27377.82,2.155733858
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1240000,26764.62,2.158437097
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1300000,27991.03,2.153156154
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,750000,16748.91,2.233188
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,890000,19610.54,2.203431461
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2004,645000,14602.69,2.263982946
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1140000,24720.6,2.168473684
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,900000,19814.94,2.20166
+Comprehensive,Three wheeler,Private,Piaggio ,Ape ,2014,1300000,27991.03,2.153156154
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,280000,7142.01,2.550717857
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1360000,29217.44,2.148341176
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,145000,4382.58,3.022468966
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1050000,22880.98,2.179140952
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1090000,23698.59,2.174182569
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,600000,13682.88,2.28048
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1295000,27888.83,2.153577606
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,780000,17362.12,2.225912821
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,295000,7448.61,2.524952542
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1998,440000,10412.44,2.366463636
+Comprehensive,Three wheeler,Private,TVS ,King ,2015,890000,19610.54,2.203431461
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,995000,21756.76,2.186609045
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,720000,16135.7,2.241069444
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,750000,16748.91,2.233188
+Comprehensive,Three wheeler,Private,TVS ,King ,2016,865000,19099.54,2.208039306
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,950000,20836.95,2.193363158
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1998,450000,10616.85,2.3593
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,715000,16033.5,2.242447552
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,955000,20939.16,2.192582199
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2004,650000,14704.89,2.262290769
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,975000,21347.96,2.189534359
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1300000,27991.03,2.153156154
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,1020000,22267.77,2.183114706
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,775000,17259.92,2.227086452
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,770000,17157.72,2.228275325
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1110000,24107.39,2.171836937
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,750000,16748.91,2.233188
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1195000,25844.81,2.162745607
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1300000,27991.03,2.153156154
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,980000,21450.16,2.188791837
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1350000,29013.04,2.149114074
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1175000,25436,2.164765957
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1998,400000,9594.83,2.3987075
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1135000,24618.39,2.169021145
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1080000,23494.18,2.175387037
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1300000,27991.03,2.153156154
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,820000,18179.73,2.217040244
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1130000,24516.19,2.169574336
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,1120000,24311.79,2.170695536
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1190000,25742.61,2.163244538
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,1025000,22369.97,2.182436098
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1400000,30035.05,2.145360714
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1230000,26560.22,2.15936748
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,820000,18179.73,2.217040244
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1050000,22880.98,2.179140952
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1230000,26560.22,2.15936748
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,850000,18792.93,2.210932941
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1150000,24925,2.167391304
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1045000,22778.78,2.17978756
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1995,335000,8266.22,2.467528358
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1230000,26560.22,2.15936748
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,960000,21041.36,2.191808333
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2020,1700000,36167.12,2.127477647
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,985000,21552.36,2.188056853
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1085000,23596.38,2.174781567
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,450000,10616.85,2.3593
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,795000,17668.72,2.222480503
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1390000,29830.65,2.146089928
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,775000,17259.92,2.227086452
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,875000,19303.94,2.206164571
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2018,1435000,30750.46,2.142889199
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1997,325000,8061.82,2.48056
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,760000,16953.31,2.230698684
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,820000,18179.73,2.217040244
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,660000,14909.29,2.258983333
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,700000,15726.9,2.2467
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1250000,26969.02,2.1575216
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,640000,14500.49,2.265701563
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1150000,24925,2.167391304
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2003,720000,16135.7,2.241069444
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,885000,19508.34,2.204332203
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1210000,26151.41,2.161273554
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,745000,16646.71,2.234457718
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1996,348000,8531.94,2.451706897
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1165000,25231.6,2.165802575
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,375000,9083.83,2.422354667
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1996,375000,9083.83,2.422354667
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,695000,15624.7,2.248158273
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2017,900000,19814.94,2.20166
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1050000,22880.98,2.179140952
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,680000,15318.1,2.252661765
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,895000,19712.74,2.202540782
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,890000,19610.54,2.203431461
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1140000,24720.6,2.168473684
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,1050000,22880.98,2.179140952
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1050000,22880.98,2.179140952
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,985000,21552.36,2.188056853
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1998,385000,9288.23,2.412527273
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1100000,23902.99,2.172999091
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,680000,15318.1,2.252661765
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,720000,16135.7,2.241069444
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,855000,18895.13,2.209956725
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1150000,24925,2.167391304
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2017,1480000,31670.27,2.139883108
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2003,550000,12660.87,2.301976364
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2018,1545000,32998.88,2.135849838
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,620000,14091.68,2.272851613
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1100000,23902.99,2.172999091
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1150000,24925,2.167391304
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1300000,27991.03,2.153156154
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1155000,25027.2,2.166857143
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1080000,23494.18,2.175387037
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1998,430000,10208.04,2.373962791
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,660000,14909.29,2.258983333
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1995,320000,7959.62,2.48738125
+Comprehensive,Three wheeler,Private,Piaggio ,Ape ,2011,1050000,22880.98,2.179140952
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1250000,26969.02,2.1575216
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1080000,23494.18,2.175387037
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1350000,29013.04,2.149114074
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,560000,12865.27,2.297369643
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2003,550000,12660.87,2.301976364
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1260000,27173.42,2.156620635
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1995,385000,9288.23,2.412527273
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2003,530000,12252.06,2.311709434
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1100000,23902.99,2.172999091
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,380000,9186.03,2.417376316
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1075000,23391.98,2.17599814
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1230000,26560.22,2.15936748
+Comprehensive,Three wheeler,Private,TVS ,king ,2011,625000,14193.88,2.2710208
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1095000,23800.79,2.173588128
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1200000,25947.01,2.162250833
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1380000,29626.25,2.14682971
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,700000,15726.9,2.2467
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,735000,16442.31,2.23704898
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,900000,19814.94,2.20166
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1990,390000,9390.43,2.407802564
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,885000,19508.34,2.204332203
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2002,550000,12660.87,2.301976364
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1050000,22880.98,2.179140952
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1295000,27888.83,2.153577606
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,925000,20325.95,2.1974
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2018,1975000,41788.18,2.115857215
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2020,1635000,34838.5,2.130795107
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1120000,24311.79,2.170695536
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1100000,23902.99,2.172999091
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2018,1600000,34123.1,2.13269375
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,690000,15522.5,2.249637681
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1150000,24925,2.167391304
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,975000,21347.96,2.189534359
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,725000,16237.91,2.239711724
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1990,500000,11638.86,2.327772
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1993,315000,7857.42,2.494419048
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,930000,20428.15,2.196575269
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,890000,19610.54,2.203431461
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1295000,27888.83,2.153577606
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1260000,27173.42,2.156620635
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,690000,15522.5,2.249637681
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2002,485000,11332.25,2.336546392
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1998,455000,10719.05,2.355835165
+Comprehensive,Three wheeler,Private,TVS ,King ,2010,625000,14193.88,2.2710208
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,575000,13171.87,2.29076
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1325000,28502.04,2.151097358
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2017,1290000,27786.63,2.154002326
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2003,650000,14704.89,2.262290769
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1030000,22472.17,2.181764078
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2017,1450000,31057.06,2.141866207
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1998,335000,8266.22,2.467528358
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,950000,20836.95,2.193363158
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1999,480000,11230.05,2.33959375
+Comprehensive,Three wheeler,Private,Piaggio ,Ape ,2012,1085000,23596.38,2.174781567
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1085000,23596.38,2.174781567
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1999,380000,9186.03,2.417376316
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1250000,26969.02,2.1575216
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1280000,27582.23,2.154861719
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,860000,18997.33,2.20899186
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1125000,24413.99,2.170132444
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1050000,22880.98,2.179140952
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2004,520000,12047.66,2.316857692
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1200000,25947.01,2.162250833
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,640000,14500.49,2.265701563
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2019,1670000,35553.91,2.128976647
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,720000,16135.7,2.241069444
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2003,800000,17770.92,2.221365
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,920000,20223.75,2.198233696
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,975000,21347.96,2.189534359
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1175000,25436,2.164765957
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,930000,20428.15,2.196575269
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1195000,25844.81,2.162745607
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1390000,29830.65,2.146089928
+Comprehensive,Three wheeler,Private,Piaggio ,Ape ,2011,950000,20836.95,2.193363158
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2003,450000,10616.85,2.3593
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1991,220000,5915.59,2.688904545
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2017,1550000,33101.09,2.135554194
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1090000,23698.59,2.174182569
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1380000,29626.25,2.14682971
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2002,548000,12619.99,2.302917883
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2004,590000,13478.48,2.284488136
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1280000,27582.23,2.154861719
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1330000,28604.24,2.150694737
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1350000,29013.04,2.149114074
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2003,500000,11638.86,2.327772
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,775000,17259.92,2.227086452
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,700000,15726.9,2.2467
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,1200000,25947.01,2.162250833
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,850000,18792.93,2.210932941
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,740000,16544.51,2.235744595
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,650000,14704.89,2.262290769
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,740000,16544.51,2.235744595
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,850000,18792.93,2.210932941
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,716000,16053.94,2.242170391
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1998,700000,15726.9,2.2467
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2011,850000,18792.93,2.210932941
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,750000,16748.91,2.233188
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,980000,21450.16,2.188791837
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1330000,28604.24,2.150694737
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1150000,24925,2.167391304
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,975000,21347.96,2.189534359
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2018,1365000,29319.65,2.147959707
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,820000,18179.73,2.217040244
+Comprehensive,Three wheeler,Private,Piaggio ,Ape ,2012,1350000,29013.04,2.149114074
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1185000,25640.41,2.163747679
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1999,360000,8777.23,2.438119444
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,850000,18792.93,2.210932941
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,750000,16748.91,2.233188
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,800000,17770.92,2.221365
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,860000,18997.33,2.20899186
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2003,470000,11025.65,2.345882979
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,715000,16033.5,2.242447552
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1995,328000,8123.14,2.476567073
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,840000,18588.53,2.212920238
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1200000,25947.01,2.162250833
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,770000,17157.72,2.228275325
+Comprehensive,Three wheeler,Private,Mahindra ,Alfa ,2019,1100000,23902.99,2.172999091
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1270000,27377.82,2.155733858
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,950000,20836.95,2.193363158
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1250000,26969.02,2.1575216
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,885000,19508.34,2.204332203
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1195000,25844.81,2.162745607
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1255000,27071.22,2.157069323
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1135000,24618.39,2.169021145
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1310000,28195.43,2.152322901
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2017,1380000,29626.25,2.14682971
+Comprehensive,Three wheeler,Private,Piaggio ,Ape ,2012,880000,19406.14,2.205243182
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2004,240000,6324.4,2.635166667
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,920000,20223.75,2.198233696
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,630000,14296.08,2.269219048
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2007,720000,16135.7,2.241069444
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2004,590000,13478.48,2.284488136
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1998,480000,11230.05,2.33959375
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,650000,14704.89,2.262290769
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1320000,28399.84,2.15150303
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1150000,24925,2.167391304
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1998,435000,10310.24,2.370170115
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2001,585000,13376.27,2.28654188
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1290000,27786.63,2.154002326
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,895000,19712.74,2.202540782
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,690000,15522.5,2.249637681
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2008,695000,15624.7,2.248158273
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2016,1320000,28399.84,2.15150303
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1185000,25640.41,2.163747679
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2020,1600000,34123.1,2.13269375
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,840000,18588.53,2.212920238
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2017,1300000,27991.03,2.153156154
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1060000,23085.38,2.177866038
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2019,1585000,33816.49,2.133532492
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2010,885000,19508.34,2.204332203
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2005,690000,15522.5,2.249637681
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1060000,23085.38,2.177866038
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,785000,17464.32,2.22475414
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2013,1225000,26458.01,2.159837551
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2015,1220000,26355.81,2.160312295
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1990,650000,14704.89,2.262290769
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,1995,340000,8368.42,2.4613
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1095000,23800.79,2.173588128
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,710000,15931.3,2.24384507
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2014,1095000,23800.79,2.173588128
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2002,570000,13069.67,2.292924561
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2009,765000,17055.51,2.229478431
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2006,633000,14357.41,2.268153239
+Comprehensive,Three wheeler,Private,Bajaj ,RE ,2012,1050000,22880.98,2.179140952
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2013,1650000,30483.5,1.847484848
+Comprehensive,Lorry,Private,Suzuki ,Every ,2011,3650000,62734.97,1.718766301
+Comprehensive,Lorry,Private,Tata ,Ace ,2018,3975000,67975.83,1.710083774
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2013,7200000,119981.32,1.666407222
+Comprehensive,Lorry,Private,Tata ,207,2007,1650000,30483.5,1.847484848
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1979,1000000,20001.77,2.000177
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2018,1375000,26048.92,1.894466909
+Comprehensive,Lorry,Private,Daihatsu ,Hijet ,2017,4900000,82892.13,1.691676122
+Comprehensive,Lorry,Private,Isuzu ,350,1994,3650000,62734.97,1.718766301
+Comprehensive,Lorry,Private,Toyota ,Townace ,2002,3450000,59509.82,1.724922319
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2002,6800000,113531.02,1.669573824
+Comprehensive,Lorry,Private,Mitsubishi ,Minicab ,2008,2675000,47012.38,1.75747215
+Comprehensive,Lorry,Private,Toyota ,Dyna ,1993,3000000,52253.24,1.741774667
+Comprehensive,Lorry,Private,Tata ,Ace ,2016,2650000,46609.23,1.758838868
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2011,1240000,23871.95,1.925157258
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2008,880000,18066.69,2.053032955
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2017,4250000,72410.41,1.703774353
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1996,6300000,105468.16,1.674097778
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2011,1250000,24033.21,1.9226568
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2013,1575000,29274.07,1.858671111
+Comprehensive,Lorry,Private,Toyota ,Dyna ,2004,9950000,164327.08,1.651528442
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2009,5500000,92567.57,1.683046727
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2012,1340000,25484.52,1.901829851
+Comprehensive,Lorry,Private,Tata ,Xenon ,2014,2390000,42416.54,1.774750628
+Comprehensive,Lorry,Private,Tata ,Yodha ,2017,3300000,57090.96,1.730029091
+Comprehensive,Lorry,Private,Tata ,Dyna ,2000,3000000,52253.24,1.741774667
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1991,3650000,62734.97,1.718766301
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2018,3690000,63380,1.717615176
+Comprehensive,Lorry,Private,Isuzu ,Juston ,1991,2450000,43384.09,1.770779184
+Comprehensive,Lorry,Private,Tata ,Dimo Lokka,2015,2985000,52011.35,1.742423786
+Comprehensive,Lorry,Private,Toyota ,Dyna ,1991,2400000,42577.8,1.774075
+Comprehensive,Lorry,Private,Tata ,Xenon ,2014,2595000,45722.32,1.761939114
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2015,1900000,34514.93,1.816575263
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2006,675000,14760.91,2.186801481
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2011,6350000,106274.44,1.673613228
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2010,1245000,23952.58,1.923902008
+Comprehensive,Lorry,Private,Tata ,Xenon ,2015,2500000,44190.37,1.7676148
+Comprehensive,Lorry,Private,Foton ,Double ,2017,1700000,31289.79,1.840575882
+Comprehensive,Lorry,Private,Toyota ,Dyna ,1998,2685000,47173.63,1.756932216
+Comprehensive,Lorry,Private,Tata ,Dimo Lokka,2012,2050000,36933.79,1.801648293
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1991,2475000,43787.23,1.76918101
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2015,7375000,122803.32,1.665129763
+Comprehensive,Lorry,Private,Isuzu ,250,2005,2050000,36933.79,1.801648293
+Comprehensive,Lorry,Private,JAC ,HFC ,2012,3000000,52253.24,1.741774667
+Comprehensive,Lorry,Private,Ashok Leyland,Comet ,2011,4000000,68378.97,1.70947425
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2000,4495000,76361.21,1.698803337
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2016,3420000,59026.05,1.725907895
+Comprehensive,Lorry,Private,Isuzu ,Forward ,2006,10000000,165133.37,1.6513337
+Comprehensive,Lorry,Private,Ashok Leyland,Cargo,2017,6500000,108693.3,1.672204615
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2016,1925000,34918.08,1.813926234
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2010,2500000,44190.37,1.7676148
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2010,1350000,25645.78,1.899687407
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2015,2100000,37740.08,1.797146667
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1990,2500000,44190.37,1.7676148
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2018,1685000,31047.9,1.842605341
+Comprehensive,Lorry,Private,Toyota ,Dyna ,1979,2190000,39191.4,1.789561644
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2014,1700000,31289.79,1.840575882
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2018,3750000,64347.54,1.7159344
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2013,1295000,24758.87,1.911881853
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2017,1980000,35804.99,1.808332828
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2013,6000000,100630.44,1.677174
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2018,7800000,129656.76,1.662266154
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2013,7650000,127237.9,1.663240523
+Comprehensive,Lorry,Private,Tata ,Xenon ,2016,3500000,60316.11,1.723317429
+Comprehensive,Lorry,Private,Toyota ,Liteace ,1997,2500000,44190.37,1.7676148
+Comprehensive,Lorry,Private,Isuzu ,Forward ,2000,6900000,115143.6,1.668747826
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2015,7800000,129656.76,1.662266154
+Comprehensive,Lorry,Private,Suzuki ,Carry ,2011,3695000,63460.62,1.717472801
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2016,1850000,33708.65,1.822089189
+Comprehensive,Lorry,Private,Isuzu ,Forward ,1995,3500000,60316.11,1.723317429
+Comprehensive,Lorry,Private,Dfsk ,Unimo ,2015,1550000,28870.93,1.862640645
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1998,3200000,55478.39,1.733699688
+Comprehensive,Lorry,Private,Ashok Leyland,Comet ,1999,1550000,28870.93,1.862640645
+Comprehensive,Lorry,Private,Foton ,Auman ,2010,850000,17582.91,2.068577647
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2011,895000,18308.57,2.045650279
+Comprehensive,Lorry,Private,Isuzu ,250,1974,1075000,21211.2,1.973134884
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2016,9000000,149007.63,1.655640333
+Comprehensive,Lorry,Private,Nissan ,Atlas ,1999,1050000,20808.06,1.98172
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1991,2300000,40965.23,1.781096957
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1982,1150000,22420.63,1.94962
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1999,3100000,53865.81,1.737606774
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2016,3550000,61122.39,1.721757465
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2007,5450000,91761.28,1.683693211
+Comprehensive,Lorry,Private,Isuzu ,350,1998,5375000,90551.85,1.684685581
+Comprehensive,Lorry,Private,Tata ,207,2004,1025000,20404.92,1.990723902
+Comprehensive,Lorry,Private,Tata ,Ace,2011,1350000,25645.78,1.899687407
+Comprehensive,Lorry,Private,Isuzu ,350,2000,4400000,74829.27,1.700665227
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2000,4850000,82085.84,1.692491546
+Comprehensive,Lorry,Private,Toyota ,Dyna ,2001,4250000,72410.41,1.703774353
+Comprehensive,Lorry,Private,Tata ,Ace ,2014,2600000,45802.95,1.761651923
+Comprehensive,Lorry,Private,Mitsubishi ,Fuso ,2018,8650000,143363.63,1.657383006
+Comprehensive,Lorry,Private,Mitsubishi ,Delica ,1999,2100000,37740.08,1.797146667
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1994,3650000,62734.97,1.718766301
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2012,1080000,21291.83,1.971465741
+Comprehensive,Lorry,Private,Ashok Leyland,Tusker ,1995,1800000,32902.36,1.827908889
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2015,1680000,30967.27,1.843289881
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2015,5200000,87729.85,1.6871125
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2014,1700000,31289.79,1.840575882
+Comprehensive,Lorry,Private,Ashok Leyland,Comet ,2012,6950000,115949.88,1.668343597
+Comprehensive,Lorry,Private,Ashok Leyland,Tusker ,2009,7000000,116756.17,1.667945286
+Comprehensive,Lorry,Private,Hino ,Dutro ,2015,7500000,124819.04,1.664253867
+Comprehensive,Lorry,Private,Toyota ,Dyna ,2007,6400000,107080.73,1.673136406
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2013,3250000,56284.67,1.731836
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2015,3450000,59509.82,1.724922319
+Comprehensive,Lorry,Private,Toyota ,Dyna ,1993,500000,11938.91,2.387782
+Comprehensive,Lorry,Private,Foton ,FL 2400,2013,1250000,24033.21,1.9226568
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2011,9500000,157070.5,1.653373684
+Comprehensive,Lorry,Private,Nissan ,Atlas ,1999,2800000,49028.09,1.751003214
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2010,5850000,98211.58,1.678830427
+Comprehensive,Lorry,Private,Dfsk ,Unimo ,2013,1200000,23226.92,1.935576667
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2022,4450000,75635.55,1.699675281
+Comprehensive,Lorry,Private,Tata ,Xenon ,2014,2450000,43384.09,1.770779184
+Comprehensive,Lorry,Private,Mazda ,Bongo ,1999,2190000,39191.4,1.789561644
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2012,1050000,20808.06,1.98172
+Comprehensive,Lorry,Private,Nissan ,Atlas ,1996,4000000,68378.97,1.70947425
+Comprehensive,Lorry,Private,Isuzu ,250,2000,4850000,82085.84,1.692491546
+Comprehensive,Lorry,Private,Hino ,Dutro ,2011,7950000,132075.62,1.661328553
+Comprehensive,Lorry,Private,Isuzu ,350,2011,11575000,190531.4,1.646059611
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1989,2500000,44190.37,1.7676148
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2012,1280000,24516.98,1.915389063
+Comprehensive,Lorry,Private,Ashok Leyland,Taurus ,2016,9800000,161908.22,1.652124694
+Comprehensive,Lorry,Private,Mahindra ,Jeeto ,2016,980000,19679.26,2.008087755
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2013,1195000,23146.29,1.936928033
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2007,5200000,87729.85,1.6871125
+Comprehensive,Lorry,Private,Daihatsu ,Hijet ,2003,1816890,33174.72,1.825906907
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2011,2000000,36127.51,1.8063755
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2013,7200000,119981.32,1.666407222
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2009,920000,18711.72,2.033882609
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2011,1045000,20727.43,1.983486124
+Comprehensive,Lorry,Private,Suzuki ,Carry ,2011,3515000,60557.99,1.722844666
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2000,4700000,79666.99,1.69504234
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2012,1250000,24033.21,1.9226568
+Comprehensive,Lorry,Private,Tata ,Ace ,2010,1265000,24275.09,1.918979447
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2012,1200000,23226.92,1.935576667
+Comprehensive,Lorry,Private,Isuzu ,350,1982,1450000,27258.35,1.879886207
+Comprehensive,Lorry,Private,Suzuki ,Carry ,2019,5000000,84504.7,1.690094
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2010,6700000,111918.45,1.670424627
+Comprehensive,Lorry,Private,Tata ,Ace ,2010,2000000,36127.51,1.8063755
+Comprehensive,Lorry,Private,Dfsk ,Unimo ,2012,1490000,27903.38,1.872710067
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2007,1850000,33708.65,1.822089189
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1993,3700000,63541.25,1.717331081
+Comprehensive,Lorry,Private,Toyota ,Dyna ,1995,3050000,53059.53,1.739656721
+Comprehensive,Lorry,Private,Nissan ,Atlas ,1998,3050000,53059.53,1.739656721
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2015,2350000,41771.51,1.777511064
+Comprehensive,Lorry,Private,Mitsubishi ,Fuso ,2011,9950000,164327.08,1.651528442
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2014,1450000,27258.35,1.879886207
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2000,2700000,47415.52,1.75613037
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2004,6150000,103049.3,1.675598374
+Comprehensive,Lorry,Private,Ashok Leyland,Tusker ,2007,4000000,68378.97,1.70947425
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2022,4600000,78054.41,1.696835
+Comprehensive,Lorry,Private,Toyota ,Dyna ,1993,2825000,49431.24,1.749778407
+Comprehensive,Lorry,Private,Daihatsu ,Hijet ,2003,1750000,32096.07,1.834061143
+Comprehensive,Lorry,Private,Tata ,207,2006,1300000,24839.49,1.91073
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1992,3550000,61122.39,1.721757465
+Comprehensive,Lorry,Private,Mitsubishi ,Delica ,1996,1900000,34514.93,1.816575263
+Comprehensive,Lorry,Private,Toyota ,Dyna ,2004,5350000,90148.71,1.685022617
+Comprehensive,Lorry,Private,Mahindra ,Jeeto ,2015,820000,17099.14,2.085260976
+Comprehensive,Lorry,Private,JAC ,HFC,2017,4200000,71604.12,1.70486
+Comprehensive,Lorry,Private,Dfsk ,Unimo ,2015,1340000,25484.52,1.901829851
+Comprehensive,Lorry,Private,Dfsk ,Unimo ,2016,1550000,28870.93,1.862640645
+Comprehensive,Lorry,Private,Dfsk ,Unimo ,2015,450000,11132.62,2.473915556
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2002,4250000,72410.41,1.703774353
+Comprehensive,Lorry,Private,Toyota ,Dyna ,1999,3590000,61767.42,1.720540947
+Comprehensive,Lorry,Private,Micro ,Loader ,2015,1600000,29677.21,1.854825625
+Comprehensive,Lorry,Private,Ashok Leyland,Ecomet ,2013,2590000,45641.69,1.762227413
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1998,2800000,49028.09,1.751003214
+Comprehensive,Lorry,Private,Tata ,Yodha ,2018,3900000,66766.4,1.711958974
+Comprehensive,Lorry,Private,Suzuki ,Carry ,2006,1900000,34514.93,1.816575263
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1995,3500000,60316.11,1.723317429
+Comprehensive,Lorry,Private,Tata ,207,2007,715000,15405.94,2.154676923
+Comprehensive,Lorry,Private,Tata ,Xenon ,2014,2400000,42577.8,1.774075
+Comprehensive,Lorry,Private,Foton ,Forland ,2009,1200000,23226.92,1.935576667
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1986,1800000,32902.36,1.827908889
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1995,4950000,83698.42,1.690877172
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2010,9250000,153039.07,1.654476432
+Comprehensive,Lorry,Private,Isuzu ,Forward ,1985,3600000,61928.68,1.720241111
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2004,7200000,119981.32,1.666407222
+Comprehensive,Lorry,Private,Toyota ,Townace ,2006,4600000,78054.41,1.696835
+Comprehensive,Lorry,Private,Foton ,Aumark ,2013,1250000,24033.21,1.9226568
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2016,4075000,69588.4,1.707690798
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1979,2150000,38546.37,1.792854419
+Comprehensive,Lorry,Private,Tata ,Ultra ,2016,4000000,68378.97,1.70947425
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2013,1270000,24355.72,1.917773228
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2002,4200000,71604.12,1.70486
+Comprehensive,Lorry,Private,Isuzu ,350,2008,9800000,161908.22,1.652124694
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1980,1950000,35321.22,1.811344615
+Comprehensive,Lorry,Private,Mazda ,Bongo ,2014,4700000,79666.99,1.69504234
+Comprehensive,Lorry,Private,Tata ,Dipper ,2010,2500000,44190.37,1.7676148
+Comprehensive,Lorry,Private,Toyota ,Dyna ,2000,3150000,54672.1,1.735622222
+Comprehensive,Lorry,Private,Tata ,Dimo Lokka,2016,3050000,53059.53,1.739656721
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1994,4300000,73216.69,1.702713721
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1985,1540000,28709.67,1.864264286
+Comprehensive,Lorry,Private,Tata ,Xenon ,2014,2660000,46770.49,1.758289098
+Comprehensive,Lorry,Private,Nissan ,Atlas ,1994,1200000,23226.92,1.935576667
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2011,9500000,157070.5,1.653373684
+Comprehensive,Lorry,Private,Tata ,Ace ,2011,1350000,25645.78,1.899687407
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2016,3600000,61928.68,1.720241111
+Comprehensive,Lorry,Private,Micro ,Loader ,2013,1150000,22420.63,1.94962
+Comprehensive,Lorry,Private,Toyota ,Townace ,2015,4500000,76441.84,1.698707556
+Comprehensive,Lorry,Private,Changan ,Toyace ,2006,1150000,22420.63,1.94962
+Comprehensive,Lorry,Private,Mazda ,Titan ,1994,2250000,40158.94,1.784841778
+Comprehensive,Lorry,Private,Nissan ,Atlas ,1991,1450000,27258.35,1.879886207
+Comprehensive,Lorry,Private,Isuzu ,350,1995,2400000,42577.8,1.774075
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1999,3895000,66685.77,1.712086521
+Comprehensive,Lorry,Private,Isuzu ,Juston ,1996,7950000,132075.62,1.661328553
+Comprehensive,Lorry,Private,Toyota ,Dyna ,2002,4200000,71604.12,1.70486
+Comprehensive,Lorry,Private,Foton ,Forland ,2012,1000000,20001.77,2.000177
+Comprehensive,Lorry,Private,Tata ,Dimo Batti,2015,750000,15970.34,2.129378667
+Comprehensive,Lorry,Private,Hyundai ,HD65 ,2001,3370000,58219.76,1.727589318
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1994,2700000,47415.52,1.75613037
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2007,6200000,103855.58,1.67509
+Comprehensive,Lorry,Private,Toyota ,Land Cruiser,2014,9500000,157070.5,1.653373684
+Comprehensive,Lorry,Private,Daihatsu ,Hijet ,1999,1500000,28064.64,1.870976
+Comprehensive,Lorry,Private,Tata ,LPT ,2017,3925000,67169.54,1.71132586
+Comprehensive,Lorry,Private,Toyota ,Hiace ,1980,1090000,21453.09,1.968173394
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2007,2300000,40965.23,1.781096957
+Comprehensive,Lorry,Private,Ashok Leyland,Comet ,1993,925000,18792.34,2.031604324
+Comprehensive,Lorry,Private,Isuzu ,250,1990,3300000,57090.96,1.730029091
+Comprehensive,Lorry,Private,Ashok Leyland,Comet ,2017,5700000,95792.72,1.680574035
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2017,3500000,60316.11,1.723317429
+Comprehensive,Lorry,Private,Suzuki ,Carry ,2009,2750000,48221.81,1.753520364
+Comprehensive,Lorry,Private,Isuzu ,Freezer Truck,2012,9750000,161101.93,1.652327487
+Comprehensive,Lorry,Private,Nissan ,Cabstar ,2007,5950000,99824.15,1.677716807
+Comprehensive,Lorry,Private,Toyota ,Tipper ,2002,7750000,128850.47,1.66258671
+Comprehensive,Lorry,Private,Tata ,Xenon ,2014,2400000,42577.8,1.774075
+Comprehensive,Lorry,Private,Daihatsu ,Hijet ,2018,3650000,62734.97,1.718766301
+Comprehensive,Lorry,Private,Toyota ,Dyna ,1994,1350000,25645.78,1.899687407
+Comprehensive,Lorry,Private,Ashok Leyland,Tusker ,2005,3550000,61122.39,1.721757465
+Comprehensive,Lorry,Private,Isuzu ,250,1993,3050000,53059.53,1.739656721
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1994,3700000,63541.25,1.717331081
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1991,2550000,44996.66,1.764574902
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1983,1435000,27016.47,1.882680836
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2016,1630000,30160.99,1.850367485
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1982,1375000,26048.92,1.894466909
+Comprehensive,Lorry,Private,Ashok Leyland,Dost ,2015,1400000,26452.07,1.889433571
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2005,5200000,87729.85,1.6871125
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1999,5500000,92567.57,1.683046727
+Comprehensive,Lorry,Private,Hino ,MTB ,2000,2700000,47415.52,1.75613037
+Comprehensive,Lorry,Private,Mahindra ,Jeeto ,2016,1025000,20404.92,1.990723902
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2016,1800000,32902.36,1.827908889
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2011,1050000,20808.06,1.98172
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1998,3000000,52253.24,1.741774667
+Comprehensive,Lorry,Private,Suzuki ,Carry ,2014,3950000,67572.69,1.710701013
+Comprehensive,Lorry,Private,Nissan ,Atlas ,2011,6050000,101436.72,1.67664
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,1984,1500000,28064.64,1.870976
+Comprehensive,Lorry,Private,Nissan ,Condor ,1994,3000000,52253.24,1.741774667
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2013,6800000,113531.02,1.669573824
+Comprehensive,Lorry,Private,Isuzu ,Juston ,2000,6250000,104661.87,1.67458992
+Comprehensive,Lorry,Private,Toyota ,Dyna ,2013,7800000,129656.76,1.662266154
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2013,1450000,27258.35,1.879886207
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1999,3750000,64347.54,1.7159344
+Comprehensive,Lorry,Private,Mahindra ,Jeeto ,2016,1250000,24033.21,1.9226568
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2012,1325000,25242.64,1.905104906
+Comprehensive,Lorry,Private,Tata ,Dimo Batta,2016,2000000,36127.51,1.8063755
+Comprehensive,Lorry,Private,Toyota ,Townace ,1980,1250000,24033.21,1.9226568
+Comprehensive,Lorry,Private,Kia ,Frontier ,2001,1525000,28467.78,1.866739672
+Comprehensive,Lorry,Private,Mitsubishi ,Mini Truck,2016,4300000,73216.69,1.702713721
+Comprehensive,Lorry,Private,Toyota ,Dyna ,2005,3800000,65153.83,1.714574474
+Comprehensive,Lorry,Private,Mazda ,Bongo ,1999,2450000,43384.09,1.770779184
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2000,3250000,56284.67,1.731836
+Comprehensive,Lorry,Private,Mitsubishi ,Mini Cab,2002,2000000,36127.51,1.8063755
+Comprehensive,Lorry,Private,Tata ,207,1995,1000000,20001.77,2.000177
+Comprehensive,Lorry,Private,Tata ,LPT ,2010,2690000,47254.26,1.756663941
+Comprehensive,Lorry,Private,Daihatsu ,Hijet ,2002,1650000,30483.5,1.847484848
+Comprehensive,Lorry,Private,Chana ,Changan ,2007,700000,15164.06,2.166294286
+Comprehensive,Lorry,Private,Dfsk ,Unimo ,2013,1020000,20324.29,1.992577451
+Comprehensive,Lorry,Private,Isuzu ,Elf ,2016,8500000,140944.77,1.658173765
+Comprehensive,Lorry,Private,Foton ,Aumark ,2013,675000,14760.91,2.186801481
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2003,6500000,108693.3,1.672204615
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1992,2800000,49028.09,1.751003214
+Comprehensive,Lorry,Private,Tata ,LPT ,2015,8800000,145782.49,1.656619205
+Comprehensive,Lorry,Private,Isuzu ,Elf ,1982,2850000,49834.38,1.748574737
+Comprehensive,Lorry,Private,Tata ,Dimo Batta ,2015,1750000,32096.07,1.834061143
+Comprehensive,Lorry,Private,Isuzu ,350,1991,3000000,52253.24,1.741774667
+Comprehensive,Lorry,Private,Nissan ,Atlas ,2003,2950000,51446.95,1.743964407
+Comprehensive,Lorry,Private,Tata ,Dimo Batta ,2013,1425000,26855.21,1.88457614
+Comprehensive,Lorry,Private,Foton ,Forland ,2012,950000,19195.49,2.020577895
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2016,3850000,65960.11,1.71324961
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2013,2375000,42174.66,1.775775158
+Comprehensive,Lorry,Private,Tata ,Dimo Batta ,2014,1875000,34111.79,1.819295467
+Comprehensive,Lorry,Private,Tata ,Dimo Batta ,2006,750000,15970.34,2.129378667
+Comprehensive,Lorry,Private,Ashok Leyland,Comet ,1991,950000,19195.49,2.020577895
+Comprehensive,Lorry,Private,Tata ,207,2015,2350000,41771.51,1.777511064
+Comprehensive,Lorry,Private,Tata ,1516,2010,2050000,36933.79,1.801648293
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2014,1470000,27580.87,1.87624966
+Comprehensive,Lorry,Private,Tata ,Dimo Lokka,2016,2775000,48624.95,1.75225045
+Comprehensive,Lorry,Private,Toyota ,Townace ,2000,3200000,55478.39,1.733699688
+Comprehensive,Lorry,Private,Daihatsu ,Hijet ,2015,580000,13228.97,2.280856897
+Comprehensive,Lorry,Private,Nissan ,Vanette ,2000,3500000,60316.11,1.723317429
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2007,4500000,76441.84,1.698707556
+Comprehensive,Lorry,Private,Toyota ,Dyna ,1996,6000000,100630.44,1.677174
+Comprehensive,Lorry,Private,Foton ,Lorry ,2012,1375000,26048.92,1.894466909
+Comprehensive,Lorry,Private,Mahindra ,Bolero ,2018,3900000,66766.4,1.711958974
+Comprehensive,Lorry,Private,Tata ,1210,1992,675000,14760.91,2.186801481
+Comprehensive,Lorry,Private,Tata ,Dimo Batta ,2012,1575000,29274.07,1.858671111
+Comprehensive,Lorry,Private,Nissan ,Vanette ,1997,2550000,44996.66,1.764574902
+Comprehensive,Lorry,Private,Mitsubishi ,Canter ,2005,6500000,108693.3,1.672204615
+Comprehensive,Lorry,Private,Mahindra ,Maxximo ,2016,1775000,32499.22,1.830941972
+Comprehensive,Lorry,Private,Toyota ,Townace ,2003,2500000,44190.37,1.7676148
+Comprehensive,Lorry,Private,Tata ,Ace ,2016,2650000,46609.23,1.758838868
+Third Party,Car,Private,Bajaj,Pulsar 180,2016,180000,3500,1.944444444
+Third Party,Car,Private,Toyota,Carina,1971,295000,3500,1.186440678
+Third Party,Three wheeler,Private,Bajaj ,RE ,2010,100000,2160,2.16
+Third Party,Three wheeler,Private,Bajaj ,RE ,2010,100000,2160,2.16
+Third Party,Three wheeler,Private,Bajaj ,RE ,2009,145000,2160,1.489655172
+Third Party,Three wheeler,Private,Bajaj ,RE ,2006,145000,2160,1.489655172
+Third Party,Lorry,Private,Dfsk ,Unimo ,2015,450000,4650,1.033333333
