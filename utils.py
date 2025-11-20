@@ -32,8 +32,8 @@ def calculate_risk_score(vehicle_use, vehicle_age, sum_insured, driver_age):
 
 
 
-
-
+# psql 'postgresql://neondb_owner:npg_RwMkJvDa4x6G@ep-withered-sky-a1cacs7m-pooler.ap-southeast-1.aws.neon.tech/Final%20code?sslmode=require&channel_binding=require''
+# npg_RwMkJvDa4x6G
 
 # utils.py
 import joblib
