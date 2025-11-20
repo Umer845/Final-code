@@ -2,7 +2,7 @@
 """
 Unified Streamlit training dashboard
 Combines CatBoost, XGBoost, LightGBM, GradientBoosting, AdaBoost training logic with LLM explanations
-Saves models & features to local `models/` and training results to PostgreSQL.
+Saves models & features to local `models/` and training results to Neon PostgreSQL.
 
 Run: streamlit run training_streamlit_merged.py
 """
@@ -30,30 +30,37 @@ from sklearn.tree import DecisionTreeRegressor
 
 
 # ---------------------------------------
-# ⚙️ Database Configuration
+# 🌐 Neon Database Configuration
 # ---------------------------------------
-DB_USER = "postgres"
-DB_PASSWORD = "United2025"
-DB_HOST = "localhost"
+DB_USER = "neondb_owner"
+DB_PASSWORD = "npg_RwMkJvDa4x6G"
+DB_HOST = "ep-withered-sky-a1cacs7m-pooler.ap-southeast-1.aws.neon.tech"
 DB_PORT = "5432"
-DB_NAME = "AutoMotor_Insurance"
+DB_NAME = "Final code"
+
 DB_TABLE_NAME = "motor_insurance_data"
 DB_RESULTS_TABLE = "model_training_results"
 
 
-# -------------------- Engine --------------------
+# ---------------------------------------
+# 🔗 Neon Engine
+# ---------------------------------------
 @st.cache_resource
 def get_engine():
     try:
-        return create_engine(
-            f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+        engine_string = (
+            f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}"
+            f"@{DB_HOST}:{DB_PORT}/{DB_NAME}?sslmode=require"
         )
+        return create_engine(engine_string)
     except Exception as e:
         st.error(f"❌ DB Connection Failed: {e}")
         return None
 
 
-# -------------------- Risk Scoring --------------------
+# ---------------------------------------
+# 🔢 Risk Scoring (unchanged)
+# ---------------------------------------
 def calculate_risk_score(vehicle_use, vehicle_age, sum_insured, driver_age):
     if str(vehicle_use).lower() == 'personal':
         vehicleuse_score = 0.2
@@ -105,11 +112,12 @@ def calculate_risk_score(vehicle_use, vehicle_age, sum_insured, driver_age):
     return raw_score, label
 
 
-# -------------------- Local LLM --------------------
+# ---------------------------------------
+# 🤖 Local LLM (Ollama)
+# ---------------------------------------
 def is_ollama_running():
     try:
-        response = requests.get("http://localhost:11434/api/tags", timeout=5)
-        return response.status_code == 200
+        return requests.get("http://localhost:11434/api/tags", timeout=5).status_code == 200
     except Exception:
         return False
 
@@ -117,30 +125,35 @@ def is_ollama_running():
 def local_llm_explanation(prompt, model_name="llama3"):
     if not is_ollama_running():
         return "⚠️ Local LLM not running. Please start Ollama using 'ollama serve'."
+
     try:
         response = requests.post(
             "http://localhost:11434/api/generate",
             json={"model": model_name, "prompt": prompt},
             timeout=180
         )
+
         output_text = ""
         for line in response.iter_lines():
             if line:
                 data = line.decode("utf-8")
                 if '"response"' in data:
-                    part = data.split('"response":"')[-1].split('"')[0]
-                    output_text += part
+                    output_text += data.split('"response":"')[-1].split('"')[0]
+
         if not output_text:
             try:
                 output_text = response.json().get('response', '') or response.text
-            except Exception:
+            except:
                 output_text = response.text
-        return output_text.strip() if output_text else "No explanation returned from local LLM."
+
+        return output_text.strip()
     except Exception as e:
         return f"⚠️ Could not connect to local LLM: {e}"
 
 
-# -------------------- Helpers --------------------
+# ---------------------------------------
+# 🔧 Helpers
+# ---------------------------------------
 def model_already_trained(engine, model_name):
     try:
         query = text(f"""
@@ -150,11 +163,9 @@ def model_already_trained(engine, model_name):
             ORDER BY id DESC
             LIMIT 1
         """)
-        df = pd.read_sql_query(query, con=engine, params={"m": model_name})
-        if not df.empty:
-            return df.iloc[0].to_dict()
-        return None
-    except Exception:
+        df = pd.read_sql(query, con=engine, params={"m": model_name})
+        return df.iloc[0].to_dict() if not df.empty else None
+    except:
         return None
 
 
@@ -167,9 +178,12 @@ def save_features_and_model(model_obj, X_columns, model_name):
     return model_file, feat_file
 
 
-# -------------------- Generic Training --------------------
+# ---------------------------------------
+# 🏋️ Generic Training Function
+# ---------------------------------------
 def train_model_generic(df, model_name, model_obj):
-    df.columns = df.columns.map(str)  # ✅ Ensure all string column names
+
+    df.columns = df.columns.map(str)
 
     current_year = datetime.datetime.now().year
     df["vehicle_age"] = current_year - df.get("vehicle_make_year", current_year - 5)
@@ -183,225 +197,164 @@ def train_model_generic(df, model_name, model_obj):
         ), axis=1))
 
     if "policy_premium" not in df.columns:
-        st.error("❌ 'policy_premium' column not found in dataset.")
+        st.error("❌ 'policy_premium' column missing.")
         return
 
-    target_col = "policy_premium"
-    feature_cols = [c for c in df.columns if c != target_col]
+    target = "policy_premium"
+    feature_cols = [c for c in df.columns if c != target]
 
     X = pd.get_dummies(df[feature_cols], drop_first=True)
-    X.columns = X.columns.map(str)  # ✅ Make sure X columns are string
-    y = df[target_col]
+    X.columns = X.columns.map(str)
+    y = df[target]
 
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42
-    )
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    with st.spinner(f"Training {model_name}... Please wait ⏳"):
+    with st.spinner(f"Training {model_name}..."):
         model_obj.fit(X_train, y_train)
         y_pred = model_obj.predict(X_test)
 
     r2 = float(r2_score(y_test, y_pred))
     mae = float(mean_absolute_error(y_test, y_pred))
     rmse = float(np.sqrt(mean_squared_error(y_test, y_pred)))
-    with np.errstate(divide='ignore', invalid='ignore'):
-        accuracy = float(100 * (1 - (np.abs(y_test - y_pred) / y_test)
-                                .replace([np.inf, -np.inf], np.nan)
-                                .fillna(0).mean()))
+    accuracy = float(
+        100 * (1 - (np.abs(y_test - y_pred) / y_test)
+        .replace([np.inf, -np.inf], np.nan).fillna(0).mean())
+    )
 
     prompt = f"""
-    The {model_name} for motor insurance premium prediction produced:
-    - R²: {r2:.4f}
-    - MAE: {mae:,.2f}
-    - RMSE: {rmse:,.2f}
-    - Accuracy: {accuracy:.2f}%
-    Explain what these metrics imply and provide insights on how risk factors affect prediction accuracy.
+    The {model_name} achieved:
+    R2: {r2:.4f}, MAE: {mae:.4f}, RMSE: {rmse:.4f}, Accuracy: {accuracy:.2f}%.
+    Explain these metrics and their meaning for insurance premium prediction.
     """
 
     llm_output = local_llm_explanation(prompt)
 
-    st.markdown(f"<h3 style='text-align:left;'>📊 {model_name} Performance</h3>", unsafe_allow_html=True)
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("R² Score", f"{r2:.4f}")
-    c2.metric("MAE", f"{mae:,.2f}")
-    c3.metric("RMSE", f"{rmse:,.2f}")
-    c4.metric("🎯 Accuracy", f"{accuracy:.2f}%")
+    save_features_and_model(model_obj, X.columns.tolist(), model_name)
 
-    st.markdown(f"""
-    <div style="background-color:#1f2937;padding:20px;border-radius:10px;margin-top:20px;">
-        <h4 style="color:#93c5fd;">🧠 LLM Explanation</h4>
-        <pre style="color:#e5e7eb;white-space:pre-wrap;">{llm_output}</pre>
-    </div>
-    """, unsafe_allow_html=True)
-
-    model_file, feat_file = save_features_and_model(model_obj, X.columns.tolist(), model_name)
-
-    # ✅ Save results to DB
+    # ---------------------------------------
+    # 💾 Save Results to Neon
+    # ---------------------------------------
     try:
         engine = get_engine()
-        if engine is not None:
-            results_df = pd.DataFrame([{
-                "model_name": model_name,
-                "r2_score": r2,
-                "mae": mae,
-                "rmse": rmse,
-                "accuracy": accuracy,
-                "llm_prompt": prompt.strip(),
-                "llm_explanation": llm_output.strip()
-            }])
 
-            with engine.begin() as conn:
-                conn.execute(text("""
-                    CREATE TABLE IF NOT EXISTS model_training_results (
-                        id SERIAL PRIMARY KEY,
-                        model_name VARCHAR(150),
-                        r2_score DOUBLE PRECISION,
-                        mae DOUBLE PRECISION,
-                        rmse DOUBLE PRECISION,
-                        accuracy DOUBLE PRECISION,
-                        llm_prompt TEXT,
-                        llm_explanation TEXT,
-                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-                    );
-                """))
+        with engine.begin() as conn:
+            conn.execute(text("""
+                CREATE TABLE IF NOT EXISTS model_training_results (
+                    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+                    model_name VARCHAR(200),
+                    r2_score DOUBLE PRECISION,
+                    mae DOUBLE PRECISION,
+                    rmse DOUBLE PRECISION,
+                    accuracy DOUBLE PRECISION,
+                    llm_prompt TEXT,
+                    llm_explanation TEXT,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                );
+            """))
 
-            results_df.to_sql(DB_RESULTS_TABLE, con=engine, if_exists="append", index=False)
-            st.success("✅ Training results & LLM prompt saved to DB!")
-    except SQLAlchemyError as e:
-        st.error(f"❌ Could not save training results: {e}")
+        result_row = pd.DataFrame([{
+            "model_name": model_name,
+            "r2_score": r2,
+            "mae": mae,
+            "rmse": rmse,
+            "accuracy": accuracy,
+            "llm_prompt": prompt.strip(),
+            "llm_explanation": llm_output.strip()
+        }])
+
+        result_row.to_sql(DB_RESULTS_TABLE, con=engine, if_exists="append", index=False)
+
+        st.success("✅ Training Results Saved to Neon Database")
+
+    except Exception as e:
+        st.error(f"❌ DB Save Error: {e}")
 
 
-# -------------------- UI --------------------
+# ---------------------------------------
+# 🎛️ UI
+# ---------------------------------------
 def show():
     st.set_page_config(page_title="Unified Training Dashboard", layout="wide")
     st.title("🚀 Unified Model Training — Insurance Premiums")
 
     engine = get_engine()
+
+    # Check dataset existence
     dataset_exists = False
+    try:
+        with engine.begin() as conn:
+            res = conn.execute(text(f"SELECT COUNT(*) FROM {DB_TABLE_NAME}"))
+            dataset_exists = res.scalar() > 0
+    except:
+        pass
 
-    if engine is not None:
-        try:
-            with engine.begin() as conn:
-                res = conn.execute(text(f"SELECT COUNT(*) FROM {DB_TABLE_NAME}"))
-                count = res.scalar()
-                dataset_exists = bool(count and count > 0)
-        except Exception:
-            dataset_exists = False
+    # Upload dataset
+    if not dataset_exists:
+        uploaded_file = st.file_uploader("📤 Upload dataset (CSV)", type=["csv"])
 
-    if dataset_exists:
-        st.warning("⚠️ Dataset already exists in the database.")
-        if st.button("🗑 Delete Dataset from DB", key="delete_db_data"):
-            with engine.begin() as conn:
-                conn.execute(text(f"DELETE FROM {DB_TABLE_NAME}"))
-            st.success("✅ Dataset deleted successfully! You can upload a new one now.")
-            st.rerun()
-    else:
-        uploaded_file = st.file_uploader("📤 Upload dataset (CSV format)", type=["csv"])
-        if uploaded_file is not None:
+        if uploaded_file:
             try:
                 df = pd.read_csv(uploaded_file)
-                df.columns = (
-                    df.columns.str.strip()
-                    .str.lower()
-                    .str.replace(" ", "_")
-                    .str.replace("-", "_")
-                )
-                df.columns = df.columns.map(str)  # ✅ ensure all str
-                st.success("✅ File uploaded successfully!")
+                df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
+                df.columns = df.columns.map(str)
                 st.dataframe(df.head())
 
                 with engine.begin() as conn:
                     df.to_sql(DB_TABLE_NAME, con=conn, if_exists="append", index=False)
-                st.success("✅ Dataset saved to database!")
+
+                st.success("✅ Dataset saved to Neon database.")
                 st.rerun()
             except Exception as e:
-                st.error(f"❌ Failed to upload dataset: {e}")
+                st.error(f"Upload error: {e}")
             return
 
+    # Dataset exists — load it
     if dataset_exists:
         try:
             df = pd.read_sql_table(DB_TABLE_NAME, con=engine)
-            df.columns = df.columns.map(str)  # ✅ Fix for quoted_name issue
-            df.columns = (
-                df.columns.str.strip()
-                .str.lower()
-                .str.replace(" ", "_")
-                .str.replace("-", "_")
-            )
-            st.success("📦 Loaded dataset from database.")
+            df.columns = df.columns.map(str)
             st.dataframe(df.head())
 
-            st.write("### 🚀 Choose a Model to Train")
-
-            # 5 columns → 5 buttons (XGB, LGBM, GBM, CatBoost, AdaBoost)
+            st.subheader("🚀 Choose a Model to Train")
             cols = st.columns(5)
 
-            models = [
+            MODELS = [
                 ("XGBoost Model", XGBRegressor(
                     n_estimators=500, learning_rate=0.01, max_depth=10,
-                    random_state=42, subsample=0.8, colsample_bytree=0.8,
+                    subsample=0.8, colsample_bytree=0.8, random_state=42,
                     objective="reg:squarederror"
                 )),
-                ("LightGBoost Model", LGBMRegressor(
+                ("LightGBM Model", LGBMRegressor(
                     n_estimators=500, learning_rate=0.01, max_depth=10,
                     subsample=0.8, colsample_bytree=0.8, random_state=42
                 )),
                 ("GradientBoost Model", GradientBoostingRegressor(
                     n_estimators=500, learning_rate=0.01, max_depth=10,
-                    random_state=42, subsample=0.8, max_features=0.8
+                    subsample=0.8, max_features=0.8, random_state=42
                 )),
                 ("CatBoost Model", CatBoostRegressor(
-                    iterations=5000,
-                    learning_rate=0.01,
-                    depth=10,
-                    loss_function="RMSE",
-                    eval_metric="RMSE",
-                    random_seed=42,
-                    verbose=False
+                    iterations=4000, learning_rate=0.01, depth=10,
+                    loss_function="RMSE", eval_metric="RMSE",
+                    random_seed=42, verbose=False
                 )),
                 ("AdaBoost Model", AdaBoostRegressor(
                     estimator=DecisionTreeRegressor(max_depth=10),
-                    n_estimators=500,
-                    learning_rate=0.05,
-                    random_state=42
-                ))
+                    n_estimators=500, learning_rate=0.05, random_state=42
+                )),
             ]
 
-            for i, (mname, mobj) in enumerate(models):
-                with cols[i]:
-                    if st.button(mname, key=mname):
-                        existing = model_already_trained(engine, mname)
-                        if existing:
-                            st.markdown(f"<h3 style='text-align:left;'>📊 {mname} Results</h3>", unsafe_allow_html=True)
-                            st.markdown(f"""
-                            <div style="display:flex; flex-direction:column; gap:16px; margin-top:20px;">
-                                <div style="background-color:#0ea5a4;padding:14px;border-radius:10px;color:#041014;flex:1;text-align:center;">
-                                    <div style="font-size:14px;font-weight:600;">R² Score</div>
-                                    <div style="font-size:22px;font-weight:700;">{existing['r2_score']:.4f}</div>
-                                </div>
-                                <div style="background-color:#0ea5a4;padding:14px;border-radius:10px;color:#041014;flex:1;text-align:center;">
-                                    <div style="font-size:14px;font-weight:600">MAE</div>
-                                    <div style="font-size:22px;font-weight:700;">{existing['mae']:,.4f}</div>
-                                </div>
-                                <div style="background-color:#0ea5a4;padding:14px;border-radius:10px;color:#041014;flex:1;text-align:center;">
-                                    <div style="font-size:14px;font-weight:600">RMSE</div>
-                                    <div style="font-size:22px;font-weight:700;">{existing['rmse']:,.4f}</div>
-                                </div>
-                                <div style="background-color:#0ea5a4;padding:14px;border-radius:10px;color:#041014;flex:1;text-align:center;">
-                                    <div style="font-size:14px;font-weight:600">🎯 Accuracy</div>
-                                    <div style="font-size:22px;font-weight:700;">{existing['accuracy']:.2f}%</div>
-                                </div>
-                            </div>
-                            <div style="background-color:#0ea5a4;padding:18px;border-radius:12px;margin-top:20px;color:#041014;">
-                                <div style="font-size:15px;font-weight:600">🧠 LLM Explanation</div>
-                                <pre style="white-space:pre-wrap;margin-top:12px;">{existing['llm_explanation']}</pre>
-                            </div>
-                            """, unsafe_allow_html=True)
-                        else:
-                            train_model_generic(df.copy(), mname, mobj)
+            for i, (model_name, model_obj) in enumerate(MODELS):
+                if cols[i].button(model_name):
+                    existing = model_already_trained(engine, model_name)
+
+                    if existing:
+                        st.write(f"📊 Latest Results for {model_name}")
+                        st.json(existing)
+                    else:
+                        train_model_generic(df.copy(), model_name, model_obj)
 
         except Exception as e:
-            st.error(f"❌ Could not load dataset from DB: {e}")
+            st.error(f"Dataset load failed: {e}")
 
 
 if __name__ == "__main__":

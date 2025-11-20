@@ -9,13 +9,13 @@ import premium
 
 
 # ==============================
-# 🔧 Database Configuration
+# 🌐 Neon Database Configuration
 # ==============================
-DB_USER = "postgres"
-DB_PASSWORD = "United2025"
-DB_HOST = "localhost"
+DB_USER = "neondb_owner"
+DB_PASSWORD = "npg_RwMkJvDa4x6G"
+DB_HOST = "ep-withered-sky-a1cacs7m-pooler.ap-southeast-1.aws.neon.tech"
 DB_PORT = "5432"
-DB_NAME = "AutoMotor_Insurance"
+DB_NAME = "Final code"   # Neon DB name (spaces allowed)
 
 MODEL_DIR = "models"
 TRAINING_RESULTS_TABLE = "model_training_results"
@@ -24,28 +24,30 @@ PREMIUM_RESULTS_TABLE = "premium_results"
 
 
 # ==============================
+# 🔗 Database Connection (Neon)
+# ==============================
+def get_db_connection():
+    try:
+        engine = create_engine(
+            f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}"
+            f"@{DB_HOST}:{DB_PORT}/{DB_NAME}?sslmode=require"
+        )
+        return engine
+    except SQLAlchemyError as e:
+        st.error(f"❌ Database Connection Failed: {e}")
+        return None
+
+
+# ==============================
 # 🔗 MODEL FILE MAPPING
 # ==============================
 MODEL_FILE_MAP = {
     "GradientBoost Model": "GradientBoost_Model.pkl",
-    "LightGBoost Model": "LightGBoost_Model.pkl",   # corrected key
+    "LightGBoost Model": "LightGBoost_Model.pkl",
     "XGBoost Model": "XGBoost_Model.pkl",
     "CatBoost Model": "CatBoost_Model.pkl",
     "AdaBoost Model": "AdaBoost_Model.pkl"
 }
-
-
-# ==============================
-# 📡 Database Connection
-# ==============================
-def get_db_connection():
-    try:
-        return create_engine(
-            f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-        )
-    except SQLAlchemyError as e:
-        st.error(f"❌ Database Connection Failed: {e}")
-        return None
 
 
 # ==============================
@@ -69,7 +71,7 @@ def show():
         )
 
         if df_models.empty:
-            st.warning("⚠️ No trained model found in database.")
+            st.warning("⚠️ No trained models found in Neon database.")
             return
 
         st.subheader("📄 Trained Models Summary")
@@ -82,7 +84,7 @@ def show():
         engine.dispose()
 
     # --------------------------------------------------------
-    # 🎛 MODEL SELECTION (MANUAL ONLY)
+    # 🎛 MODEL SELECTION (Manual Only)
     # --------------------------------------------------------
     model_list = df_models["model_name"].tolist()
 
@@ -96,11 +98,11 @@ def show():
     accuracy_value = model_accuracy_map[selected_model]
     st.metric("Validation Accuracy", f"{accuracy_value:.2f}%")
 
-    # Normalize LightGBM to LightGBoost (naming fix)
+    # Fix naming pattern
     normalized_model = selected_model.replace("LightGBM", "LightGBoost")
 
     if normalized_model not in MODEL_FILE_MAP:
-        st.error(f"❌ Model not found in mapping: {normalized_model}")
+        st.error(f"❌ Model not mapped: {normalized_model}")
         return
 
     # --------------------------------------------------------
@@ -109,7 +111,7 @@ def show():
     model_path = os.path.join(MODEL_DIR, MODEL_FILE_MAP[normalized_model])
 
     if not os.path.exists(model_path):
-        st.error(f"🚫 ML Model File Missing: {model_path}")
+        st.error(f"🚫 Model file missing: {model_path}")
         return
 
     loaded_model = joblib.load(model_path)
@@ -119,17 +121,16 @@ def show():
     st.success(f"📌 Loaded Model: {os.path.basename(model_path)}")
 
     # --------------------------------------------------------
-    # 📦 LOAD FEATURE COLUMNS FILE
+    # 📦 LOAD FEATURE COLUMNS
     # --------------------------------------------------------
     features_path = model_path.replace(".pkl", "_features.pkl")
 
     if os.path.exists(features_path):
-        feature_cols = joblib.load(features_path)
-        st.session_state["model_features"] = feature_cols
+        st.session_state["model_features"] = joblib.load(features_path)
         st.info("✅ Feature Set Loaded Successfully")
     else:
         st.session_state["model_features"] = None
-        st.warning("⚠ No feature file found — model may still work but predictions may vary.")
+        st.warning("⚠ Feature file missing — predictions may vary")
 
     # --------------------------------------------------------
     # 🔘 ACTION BUTTONS
@@ -147,7 +148,7 @@ def show():
             st.session_state["show_prediction"] = False
 
     # --------------------------------------------------------
-    # 📑 SHOW COMBINED RESULTS (Risk + Premium)
+    # 📑 COMBINED RESULTS SCREEN
     # --------------------------------------------------------
     if st.session_state.get("show_results_screen", False):
 
@@ -161,9 +162,8 @@ def show():
             df_premium = pd.read_sql(f"SELECT * FROM {PREMIUM_RESULTS_TABLE}", engine)
 
             if df_risk.empty and df_premium.empty:
-                st.info("ℹ️ No results found in the database.")
+                st.info("ℹ️ No results found in Neon database.")
             else:
-                # Align rows by index (if needed)
                 df_combined = pd.concat([df_risk, df_premium], axis=1)
                 st.dataframe(df_combined, use_container_width=True)
 

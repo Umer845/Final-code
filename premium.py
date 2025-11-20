@@ -1,19 +1,24 @@
-import streamlit as st
+import streamlit as st 
 import pandas as pd
 import datetime
 from sqlalchemy import create_engine, text
 import requests
 
-# ✅ Database configuration
-DB_USER = "postgres"
-DB_PASSWORD = "United2025"
-DB_HOST = "localhost"
+# =========================
+# ✅ Neon Database Configuration
+# =========================
+DB_USER = "neondb_owner"
+DB_PASSWORD = "npg_RwMkJvDa4x6G"
+DB_HOST = "ep-withered-sky-a1cacs7m-pooler.ap-southeast-1.aws.neon.tech"
 DB_PORT = "5432"
-DB_NAME = "AutoMotor_Insurance"
+DB_NAME = "Final code"   # Neon database name
+
 DB_TABLE_NAME = "motor_insurance_data"
 DB_TABLE_NAME1 = "premium_results"
 
-# -------------------- Local LLM (Ollama) --------------------
+# =========================
+# 🔥 Local LLM (Ollama)
+# =========================
 def is_ollama_running():
     try:
         response = requests.get("http://localhost:11434/api/tags", timeout=5)
@@ -41,17 +46,26 @@ def local_llm_explanation(prompt, model_name="llama3"):
     except Exception as e:
         return f"⚠️ Could not connect to local LLM: {e}"
 
-# -------------------- Database Connection --------------------
+# =========================
+# 🔗 Neon Database Connection
+# =========================
 @st.cache_resource
 def get_engine():
     try:
-        engine_string = f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+        engine_string = (
+            f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}"
+            f"@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+            f"?sslmode=require"
+        )
         return create_engine(engine_string)
     except Exception as e:
         st.error(f"Database connection error: {e}")
         return None
 
-# -------------------- Main App --------------------
+
+# =========================
+# 🚘 Main App
+# =========================
 def show():
     st.title("🚗 Motor Insurance Premium Prediction")
 
@@ -70,9 +84,9 @@ def show():
 
     current_year = datetime.datetime.now().year
 
-    # ---------------------------------------------------
-    # ✅ FETCH DISTINCT VEHICLE MAKES FROM DATABASE
-    # ---------------------------------------------------
+    # =========================
+    # 📌 Fetch Distinct Vehicle Makes
+    # =========================
     try:
         with engine.connect() as conn:
             df_makes = pd.read_sql(
@@ -88,18 +102,14 @@ def show():
 
     with st.form(key="predict_form"):
 
-        # ---------------------------------------------------
-        # ✅ VEHICLE MAKE DROPDOWN
-        # ---------------------------------------------------
+        # Vehicle Make Dropdown
         vehicle_make = st.selectbox(
             "Vehicle Make",
             options=make_list,
             index=0 if "Toyota" not in make_list else make_list.index("Toyota")
         )
 
-        # ---------------------------------------------------
-        # ✅ VEHICLE MODELS LOADED DEPENDING ON MAKE
-        # ---------------------------------------------------
+        # Vehicle Model Dropdown (filtered by make)
         model_list = []
         try:
             with engine.connect() as conn:
@@ -122,9 +132,6 @@ def show():
             options=model_list if model_list else ["Corolla"]
         )
 
-        # ---------------------------------------------------
-        # 🚫 NOTHING ELSE CHANGED BELOW THIS LINE
-        # ---------------------------------------------------
         vehicle_make_year = st.number_input("Vehicle Make Year", 1980, current_year, 2020)
         sum_insured = st.number_input("Sum Insured", 500000)
         risk_profile = st.selectbox(
@@ -140,7 +147,9 @@ def show():
     model_normalized = vehicle_model.strip()
     vehicle_age = current_year - vehicle_make_year
 
-    # --- Fetch Historical Rates ---
+    # =========================
+    # 📊 Fetch Historical Rates
+    # =========================
     hist_min = hist_max = hist_avg = None
     try:
         with engine.connect() as conn:
@@ -160,9 +169,9 @@ def show():
     except Exception as e:
         st.error(f"❌ Error fetching data: {e}")
 
-    # --------------------------
-    # Build inference row
-    # --------------------------
+    # =========================
+    # 🔮 Build Input Row for ML Model
+    # =========================
     def build_feature_row():
         if isinstance(feature_cols, list) and len(feature_cols) > 0:
             row = pd.DataFrame([[0] * len(feature_cols)], columns=[str(c) for c in feature_cols])
@@ -188,22 +197,23 @@ def show():
                 "vehicle_age": int(vehicle_age)
             }])
 
-    # --------------------------
-    # Prediction logic
-    # --------------------------
+    # =========================
+    # 🤖 ML Prediction
+    # =========================
     try:
         X_row = build_feature_row()
         raw_prediction = float(model.predict(X_row)[0])
         predicted_premium = max(raw_prediction, 0.0)
-        predicted_rate = (predicted_premium / sum_insured * 100) if sum_insured else 0.0
+        predicted_rate = (predicted_premium / sum_insured * 100)
         source = f"🤖 Based on {selected_model}"
     except Exception as e:
-        if hist_avg is not None and sum_insured:
+        # Fallback to Historical Average
+        if hist_avg is not None:
             predicted_rate = float(hist_avg)
             predicted_premium = (predicted_rate / 100.0) * float(sum_insured)
-            source = "📊 Based on historical rates (fallback due to model feature mismatch)"
+            source = "📊 Based on historical rates (fallback)"
         else:
-            st.error(f"❌ Prediction failed and no historical data available: {e}")
+            st.error(f"❌ Prediction failed: {e}")
             return
 
     # Age adjustment
@@ -217,55 +227,37 @@ def show():
         age_adj = 1.25
 
     predicted_premium *= age_adj
-    predicted_rate = (predicted_premium / sum_insured * 100) if sum_insured else 0.0
+    predicted_rate = (predicted_premium / sum_insured * 100)
 
     risk_map = {"Low": 0.05, "Low to Moderate": 0.075, "Moderate to High": 0.10, "High": 0.15}
     final_premium = predicted_premium * (1 + risk_map.get(risk_profile, 0))
-    final_rate = (final_premium / sum_insured * 100) if sum_insured else 0.0
+    final_rate = (final_premium / sum_insured * 100)
 
-    # Result Blocks
+    # =========================
+    # 📈 Display Results
+    # =========================
     st.markdown("### Prediction Results:")
 
     if hist_min is not None and hist_max is not None:
-        st.markdown(
-            f"""<div style="background-color:#0d5fafd9; padding:12px; border-radius:8px;">
-                <span style="font-weight:bold; color:white;">
-                    Minimum Premium Rate: {hist_min:.2f}% || Maximum Premium Rate: {hist_max:.2f}%
-                </span>
-            </div>""",
-            unsafe_allow_html=True
-        )
+        st.info(f"Minimum Rate: {hist_min:.2f}% | Maximum Rate: {hist_max:.2f}%")
 
-    st.markdown(
-        f"""<div style="background-color:#1b6706e6; padding:12px; border-radius:8px; margin-top:10px;">
-            <span style="font-weight:bold; color:white;">
-                Predicted Premium: {predicted_premium:,.2f} || Rate: {predicted_rate:.2f}%
-            </span>
-        </div>""",
-        unsafe_allow_html=True
-    )
+    st.success(f"Predicted Premium: {predicted_premium:,.2f} | Rate: {predicted_rate:.2f}%")
+    st.warning(f"Final Premium (with Risk): {final_premium:,.2f} | Rate: {final_rate:.2f}%")
 
-    st.markdown(
-        f"""<div style="background-color:#735109; padding:12px; border-radius:8px; margin-top:10px;">
-            <span style="font-weight:bold; color:white;">
-                Final Premium with Risk: {final_premium:,.2f} || Rate: {final_rate:.2f}%<br/>
-                <small>{source}</small>
-            </span>
-        </div>""",
-        unsafe_allow_html=True
-    )
-
-    # LLM Explanation
+    # =========================
+    # 🧠 LLM Explanation
+    # =========================
     st.subheader("🧠 Local AI Explanation")
     prompt = f"""
     Explain why a motor insurance case with Risk Profile '{risk_profile}' 
-    resulted in a Final Premium of {final_premium:,.2f} ({final_rate:.2f}% of Sum Insured).
-    Vehicle Age: {vehicle_age} years, Sum Insured: {sum_insured}.
+    resulted in a Final Premium of {final_premium:,.2f} ({final_rate:.2f}%).
     """
     explanation = local_llm_explanation(prompt)
     st.write("📖 " + explanation)
 
-    # Save to DB
+    # =========================
+    # 💾 Save Prediction to Neon
+    # =========================
     try:
         with engine.begin() as conn:
             insert_query = text(f"""
@@ -279,6 +271,7 @@ def show():
                         :pred_premium, :pred_rate, :final_premium, :final_rate,
                         :source, :created_at, :llm_prompt)
             """)
+
             conn.execute(insert_query, {
                 "make": make_normalized,
                 "model": model_normalized,
@@ -297,6 +290,7 @@ def show():
                 "created_at": datetime.datetime.now(),
                 "llm_prompt": explanation
             })
+
         st.success("✅ Prediction saved successfully!")
     except Exception as e:
         st.error(f"❌ Failed to save to DB: {e}")

@@ -1,166 +1,186 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-import psycopg2
+import joblib
+import os
+from sqlalchemy import create_engine
+from sqlalchemy.exc import SQLAlchemyError
+import risk_profile
+import premium
 
-# ✅ Always set page config first
-st.set_page_config(
-    page_title="Motor Insurance Dashboard",
-    layout="wide",
-    page_icon="🚗"
-)
 
-# Clear leftover session states from training page
-for key in ["uploaded_file", "training_model", "show_training_section"]:
-    if key in st.session_state:
-        del st.session_state[key]
+# ==============================
+# 🌐 Neon Database Configuration
+# ==============================
+DB_USER = "neondb_owner"
+DB_PASSWORD = "npg_RwMkJvDa4x6G"
+DB_HOST = "ep-withered-sky-a1cacs7m-pooler.ap-southeast-1.aws.neon.tech"
+DB_PORT = "5432"
+DB_NAME = "Final code"   # Neon DB name (spaces allowed)
 
-# --------------------------
-# PostgreSQL connection config
-# --------------------------
-DB_CONFIG = {
-    "dbname": "AutoMotor_Insurance",
-    "user": "postgres",
-    "password": "United2025",
-    "host": "localhost",
-    "port": "5432"
+MODEL_DIR = "models"
+TRAINING_RESULTS_TABLE = "model_training_results"
+RISK_RESULTS_TABLE = "risk_profile_results"
+PREMIUM_RESULTS_TABLE = "premium_results"
+
+
+# ==============================
+# 🔗 Database Connection (Neon)
+# ==============================
+def get_db_connection():
+    try:
+        engine = create_engine(
+            f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}"
+            f"@{DB_HOST}:{DB_PORT}/{DB_NAME}?sslmode=require"
+        )
+        return engine
+    except SQLAlchemyError as e:
+        st.error(f"❌ Database Connection Failed: {e}")
+        return None
+
+
+# ==============================
+# 🔗 MODEL FILE MAPPING
+# ==============================
+MODEL_FILE_MAP = {
+    "GradientBoost Model": "GradientBoost_Model.pkl",
+    "LightGBoost Model": "LightGBoost_Model.pkl",
+    "XGBoost Model": "XGBoost_Model.pkl",
+    "CatBoost Model": "CatBoost_Model.pkl",
+    "AdaBoost Model": "AdaBoost_Model.pkl"
 }
 
-# --------------------------
-# Fetch Data Function
-# --------------------------
-def fetch_dashboard_data():
-    """Fetch premium and risk data from database"""
-    try:
-        conn = psycopg2.connect(**DB_CONFIG)
 
-        # Monthly Premium
-        query_premium = """
-            SELECT 
-                EXTRACT(MONTH FROM created_at) AS month,
-                SUM(predicted_premium) AS total_premium,
-                SUM(sum_insured) AS total_sum_insured,
-                COUNT(*) AS total_policies
-            FROM premium_results
-            GROUP BY month
-            ORDER BY month
-        """
-        premium_df = pd.read_sql(query_premium, conn)
-
-        # Risk Profile
-        query_risk = """
-            SELECT risk_label, COUNT(*) AS count
-            FROM risk_profile_results
-            GROUP BY risk_label
-        """
-        risk_df = pd.read_sql(query_risk, conn)
-
-        # Vehicle Use
-        query_type = """
-            SELECT vehicle_use AS premium_type, COUNT(*) AS count
-            FROM risk_profile_results
-            GROUP BY vehicle_use
-        """
-        type_df = pd.read_sql(query_type, conn)
-
-        # Age Group vs Rate
-        query_age = """
-            SELECT 
-                CASE 
-                    WHEN driver_age BETWEEN 18 AND 25 THEN '18-25'
-                    WHEN driver_age BETWEEN 26 AND 35 THEN '26-35'
-                    WHEN driver_age BETWEEN 36 AND 50 THEN '36-50'
-                    ELSE '51+' 
-                END AS age_group,
-                AVG(p.predicted_rate) AS avg_rate
-            FROM premium_results p
-            JOIN risk_profile_results r
-            ON EXTRACT(YEAR FROM p.created_at) = EXTRACT(YEAR FROM r.created_at)
-            GROUP BY age_group
-            ORDER BY age_group
-        """
-        age_df = pd.read_sql(query_age, conn)
-
-        conn.close()
-        return premium_df, risk_df, type_df, age_df
-    except Exception as e:
-        st.error(f"❌ Database fetch error: {e}")
-        return None, None, None, None
-
-
-# --------------------------
-# Dashboard UI
-# --------------------------
+# ==============================
+# 🎯 MAIN SCREEN
+# ==============================
 def show():
-    st.title("🚗 Motor Insurance Dashboard")
 
-    premium_df, risk_df, type_df, age_df = fetch_dashboard_data()
-    if premium_df is None:
+    st.title("📊 Model Validation & Selection")
+
+    engine = get_db_connection()
+    if engine is None:
         return
 
-    # KPIs
-    avg_premium = premium_df['total_premium'].mean()
-    total_policies = premium_df['total_policies'].sum()
-    avg_sum_insured = premium_df['total_sum_insured'].sum() / total_policies if total_policies > 0 else 0
+    # --------------------------------------------------------
+    # 🚀 LOAD TRAINING RESULTS (ACCURACY TABLE)
+    # --------------------------------------------------------
+    try:
+        df_models = pd.read_sql(
+            f"SELECT model_name, accuracy FROM {TRAINING_RESULTS_TABLE};",
+            engine
+        )
 
-    high_risk_count = (
-        risk_df.loc[risk_df['risk_label'].str.lower() == 'high', 'count'].sum()
-        if not risk_df.empty else 0
+        if df_models.empty:
+            st.warning("⚠️ No trained models found in Neon database.")
+            return
+
+        st.subheader("📄 Trained Models Summary")
+        st.dataframe(df_models, use_container_width=True)
+
+    except SQLAlchemyError as e:
+        st.error(f"❌ Could not fetch training results: {e}")
+        return
+    finally:
+        engine.dispose()
+
+    # --------------------------------------------------------
+    # 🎛 MODEL SELECTION (Manual Only)
+    # --------------------------------------------------------
+    model_list = df_models["model_name"].tolist()
+
+    selected_model = st.selectbox(
+        "Select a Model to Load",
+        options=model_list
     )
-    total_risk_policies = risk_df['count'].sum() if not risk_df.empty else 1
-    high_risk_percent = (high_risk_count / total_risk_policies) * 100
 
-    col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Avg Premium", f"{avg_premium:,.0f}")
-    col2.metric("Total Policies", f"{total_policies:,}")
-    col3.metric("Avg Sum Insured / Policy", f"{avg_sum_insured:,.0f}")
-    col4.metric("⚠️ High Risk Policies (%)", f"{high_risk_percent:.1f}%")
+    # Show accuracy
+    model_accuracy_map = dict(zip(df_models["model_name"], df_models["accuracy"]))
+    accuracy_value = model_accuracy_map[selected_model]
+    st.metric("Validation Accuracy", f"{accuracy_value:.2f}%")
 
-    # Monthly Premium Trend
-    fig1 = go.Figure()
-    fig1.add_trace(go.Scatter(
-        x=premium_df["month"],
-        y=premium_df["total_premium"],
-        mode='lines+markers',
-        name='Total Premium'
-    ))
-    fig1.update_layout(title="📈 Monthly Premium Trend", template="plotly_white")
-    st.plotly_chart(fig1, use_container_width=True)
+    # Fix naming pattern
+    normalized_model = selected_model.replace("LightGBM", "LightGBoost")
 
-    # Pie Charts
+    if normalized_model not in MODEL_FILE_MAP:
+        st.error(f"❌ Model not mapped: {normalized_model}")
+        return
+
+    # --------------------------------------------------------
+    # 📦 LOAD MODEL FILE
+    # --------------------------------------------------------
+    model_path = os.path.join(MODEL_DIR, MODEL_FILE_MAP[normalized_model])
+
+    if not os.path.exists(model_path):
+        st.error(f"🚫 Model file missing: {model_path}")
+        return
+
+    loaded_model = joblib.load(model_path)
+    st.session_state["loaded_model"] = loaded_model
+    st.session_state["selected_model_name"] = normalized_model
+
+    st.success(f"📌 Loaded Model: {os.path.basename(model_path)}")
+
+    # --------------------------------------------------------
+    # 📦 LOAD FEATURE COLUMNS
+    # --------------------------------------------------------
+    features_path = model_path.replace(".pkl", "_features.pkl")
+
+    if os.path.exists(features_path):
+        st.session_state["model_features"] = joblib.load(features_path)
+        st.info("✅ Feature Set Loaded Successfully")
+    else:
+        st.session_state["model_features"] = None
+        st.warning("⚠ Feature file missing — predictions may vary")
+
+    # --------------------------------------------------------
+    # 🔘 ACTION BUTTONS
+    # --------------------------------------------------------
     col1, col2 = st.columns(2)
 
-    if not risk_df.empty:
-        fig2 = px.pie(
-            risk_df, names='risk_label', values='count',
-            title="Risk Profile Distribution",
-            template="plotly_white",
-            color_discrete_sequence=px.colors.sequential.Blues
-        )
-        col1.plotly_chart(fig2, use_container_width=True)
+    with col1:
+        if st.button("🔮 Predict Premium"):
+            st.session_state["show_prediction"] = True
+            st.session_state["show_results_screen"] = False
 
-    if not type_df.empty:
-        fig3 = px.pie(
-            type_df, names='premium_type', values='count',
-            title="Premium Type Distribution",
-            template="plotly_white",
-            color_discrete_sequence=px.colors.sequential.RdBu
-        )
-        col2.plotly_chart(fig3, use_container_width=True)
+    with col2:
+        if st.button("📑 View All Stored Results"):
+            st.session_state["show_results_screen"] = True
+            st.session_state["show_prediction"] = False
 
-    if not age_df.empty:
-        fig4 = px.bar(
-            age_df, x='age_group', y='avg_rate',
-            title="Average Premium Rate by Age Group",
-            template="plotly_white",
-            labels={"age_group": "Age Group", "avg_rate": "Premium Rate"}
-        )
-        st.plotly_chart(fig4, use_container_width=True)
+    # --------------------------------------------------------
+    # 📑 COMBINED RESULTS SCREEN
+    # --------------------------------------------------------
+    if st.session_state.get("show_results_screen", False):
 
+        st.markdown("---")
+        st.subheader("📑 All Stored Prediction Results")
 
-# --------------------------
-# Run
-# --------------------------
-if __name__ == "__main__":
-    show()
+        try:
+            engine = get_db_connection()
+
+            df_risk = pd.read_sql(f"SELECT * FROM {RISK_RESULTS_TABLE}", engine)
+            df_premium = pd.read_sql(f"SELECT * FROM {PREMIUM_RESULTS_TABLE}", engine)
+
+            if df_risk.empty and df_premium.empty:
+                st.info("ℹ️ No results found in Neon database.")
+            else:
+                df_combined = pd.concat([df_risk, df_premium], axis=1)
+                st.dataframe(df_combined, use_container_width=True)
+
+        except SQLAlchemyError as e:
+            st.error(f"❌ Could not load results: {e}")
+        finally:
+            engine.dispose()
+
+    # --------------------------------------------------------
+    # 🚦 RUN RISK + PREMIUM MODULES
+    # --------------------------------------------------------
+    if st.session_state.get("show_prediction", False):
+
+        st.markdown("---")
+        st.subheader("🚦 Step 1: Risk Profile Prediction")
+        risk_profile.show()
+
+        st.markdown("---")
+        st.subheader("💰 Step 2: Premium Prediction")
+        premium.show()
